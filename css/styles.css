@@ -1,10 +1,24 @@
 #indexNav {
-  border-bottom: 1px solid gray;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 88%;
+  padding-bottom: 3px;
+}
+
+#indexNav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .jumbotron {
   padding: 3px;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .jumbotron h1 {
@@ -15,4 +29,5 @@
 .jumbotron h3 {
   text-align: center;
   letter-spacing: 5px;
+  line-height: 30px;
 }
