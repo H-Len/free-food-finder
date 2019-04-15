@@ -1,0 +1,18 @@
+#indexNav {
+  border-bottom: 1px solid gray;
+}
+
+.jumbotron {
+  padding: 3px;
+  margin-top: 5%;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+.jumbotron h3 {
+  text-align: center;
+  letter-spacing: 5px;
+}

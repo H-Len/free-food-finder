@@ -10,6 +10,8 @@ _This is an application to help users easily find free food in respected regions
 ## Specs
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
+| Search by location | Click region name | List of pantries or meals in that region will display |
+| Learn about location offerings | 
 
 ## Setup/Installation Requirements
 
