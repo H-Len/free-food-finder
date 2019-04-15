@@ -5,7 +5,7 @@
 #### By _Brooke Kullberg, Megan Schulte, Ashley J. Ancheta_
 
 ## Description
-__
+_This is an application to help users easily find free food in respected regions of Portland. It was built using objects, prototypes, arrays and exploring APIs._
 
 ## Specs
 | Behavior | Input | Output |
@@ -33,4 +33,4 @@ _This program was written in HTML and JavaScript. It was styled using Bootstrap 
 
 *This software is licensed under MIT license.*
 
-Copyright (c) 2019 **_Ashley J. Ancheta_**
+Copyright (c) 2019 **_Brooke Kullberg, Megan Schulte, Ashley J. Ancheta_**
