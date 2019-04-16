@@ -1,13 +1,97 @@
 //Business Logic for Google Map API
+function initMap() {
+  //Map Options
+  var options = {
+    zoom: 10,
+    center: {lat: 45.5155, lng: -122.6793}
+  }
+  //new Map
+  var map = new google.maps.Map(document.getElementById('map'), options);
 
+  //marker image variables
+  var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
 
-// function initMap() {
-//   var options = {
-//     zoom: 8,
-//     center: {lat: 45.5155, lng: -122.6793}
-//   }
-//   var map = new google.maps.Map(document.getElementById('map'), options);
-// }
+  //marker array
+  var markers = [
+  {
+    coords:{lat: 45.588360, lng: -122.708590},
+    content: '<h3>University Park Community - SeventhDay Adventist Churst</h3>'
+  },
+  {
+    coords:{lat: 45.570270, lng: -122.667870},
+    content: '<h3>St. Vincent De Paul - Holy Redeemer</h3>'
+  },
+  {
+    coords:{lat: 45.562440, lng: -122.593260},
+    content: '<h3>Ortiz Center Free Food Market</h3>'
+  },
+  {
+    coords:{lat: 45.562390, lng: -122.638170},
+    content: '<h3>Genesis Community Fellowship Food Pantry</h3>'
+  },
+  {
+    coords:{lat: 45.562700, lng: -122.642860},
+    content: '<h3>Alberta Park - Summer Meals For Kids</h3>'
+  },
+  {
+    coords:{lat: 45.498220, lng: -122.606810},
+    content: '<h3>St Marks Lutheran Church</h3>'
+  },
+  {
+    coords:{lat: 45.479580, lng: -122.621080},
+    content: '<h3>All Saints Episcopal Church</h3>'
+  },
+  {
+    coords:{lat: 45.527590, lng: -122.689710},
+    content: '<h3>Prestons Pantry at First Immanuel Lutheran Church</h3>'
+  },
+  {
+    coords:{lat: 45.527590, lng: -122.689710},
+    content: '<h3>Free Food Market at First Immanuel Lutheran Church</h3>'
+  },
+  {
+    coords:{lat: 45.498220, lng: -122.606810},
+    content: '<h3>St Marks Lutheran Church</h3>'
+  }
+  ];
+
+  //Loop through markers
+  for (var i = 0;i < markers.length;i++){
+    addMarker(markers[i]);
+  };
+
+  //Add Marker function
+  function addMarker(props){
+    var marker = new google.maps.Marker({
+      position: props.coords,
+      map: map,
+      openOrClose: false
+    });
+    //check for custom Icon image
+    if(props.iconImage) {
+      //set icon image
+      marker.setIcon(props.iconImage)};
+
+  //check for content
+  if (props.content){
+    //new Info Window
+    var infoWindow = new google.maps.InfoWindow ({
+      content: props.content
+    });
+    //Listener Function
+    marker.addListener("click", function(){
+      infoWindow.open(map, marker)
+      marker[]
+        infoWindow.close(map, marker);
+      } else {
+        infoWindow.open(map, marker)
+      }
+    });
+
+    }
+  };
+};
+
 
 
 //Business Logic for FOOD-location OBJECT
