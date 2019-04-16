@@ -132,3 +132,4 @@ var downtown2 = new FoodLocation (45.506120, -122.698770, "Portland State Univer
 
 
 //UI for Daily calendar on index.html
+
