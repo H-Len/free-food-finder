@@ -43,7 +43,18 @@
       <h1 class="jumbotron">Search By Location</h1>
       <div id="map"></div>
 
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQTmoV4C_Gw7TJmtTMF9CFq0qU5yD86aE&callback=initMap"
+      <div id="locationInfoDisplay">
+        <h1 id="name"></h1>
+        <h3><strong>Region: </strong><span id="region"></span></h3>
+        <h3><strong>Phone Number: </strong><span id="phoneNumber"></span></h3>
+        <h3><strong>Address: </strong><span id="address"></span></h3>
+        <h3><strong>Open Days: </strong><span id="dayOfMonth"></span></h3>
+        <h3><strong>Open hours: </strong><span id="hours"></span></h3>
+        <h3><strong>Website: </strong><span id="website"></span></h3>
+        <h3><strong>Location Offerings: </strong><span id="type"></span></h3>
+        <h4><strong>Things to know: </strong><span id="restrictions"></span></h4>
+      </div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE&callback=initMap"
       async defer></script>
     </body>
   </html>
