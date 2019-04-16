@@ -149,14 +149,23 @@ function initMap() {
     //listener function for inforWindow
     marker.addListener("click", function(){
       infoWindow.open(map, marker);
-      console.log(locationsArray);
     });
 
     marker.addListener("click", function(){
-      for (var i = 0; i <= locationsArray;i++){
-        if (marker.id === locationsArray[i].id) {
-          console.log(props.id);
-          // $("#locationInfoDisplay").show();
+      console.log(props.id);
+      for (var i = 0; i <= locationsArray.length;i++){
+        if (props.id === locationsArray[i].id) {
+          console.log("youmadeit");
+          $("#locationInfoDisplay").show();
+          $("#name").text(locationsArray[i].name);
+          $("#region").text(locationsArray[i].region);
+          $("#phoneNumber").text(locationsArray[i].phoneNumber);
+          $("#address").text(locationsArray[i].address);
+          $("#dayOfMonth").text(locationsArray[i].dayOfMonth);
+          $("#hours").text(locationsArray[i].hours);
+          $("#website").text(locationsArray[i].website);
+          $("#type").text(locationsArray[i].type);
+          $("#restrictions").text(locationsArray[i].restrictions);
         }
       }
     });
@@ -182,10 +191,6 @@ function initMap() {
     // }
 
 
-  };
-
-  if (props.id){
-    console.log(props.id)
   };
 
     //Listener function for connecting to display divs
