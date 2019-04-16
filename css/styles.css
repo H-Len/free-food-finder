@@ -1,3 +1,16 @@
+
+/* body {
+  background-color: #afaea8;
+} */
+
+.box.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a38e1a;
+  font-size: 20px;
+  padding: 10px;
+
 #indexNav {
   overflow: hidden;
   background-color: #FFFFFF;
@@ -36,4 +49,5 @@
 #map {
   height: 400px;
   width: 100%;
+
 }
