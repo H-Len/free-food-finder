@@ -1,0 +1,20 @@
+body {
+  background-color: #afaea8;
+}
+
+h1 {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #af9511;
+}
+
+.box.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a38e1a;
+  font-size: 20px;
+  padding: 10px;
+}
