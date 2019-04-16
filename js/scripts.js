@@ -149,13 +149,8 @@ function initMap() {
     //listener function for inforWindow
     marker.addListener("click", function(){
       infoWindow.open(map, marker);
-    });
-
-    marker.addListener("click", function(){
-      console.log(props.id);
       for (var i = 0; i <= locationsArray.length;i++){
         if (props.id === locationsArray[i].id) {
-          console.log("youmadeit");
           $("#locationInfoDisplay").show();
           $("#name").text(locationsArray[i].name);
           $("#region").text(locationsArray[i].region);
@@ -163,73 +158,18 @@ function initMap() {
           $("#address").text(locationsArray[i].address);
           $("#dayOfMonth").text(locationsArray[i].dayOfMonth);
           $("#hours").text(locationsArray[i].hours);
-          $("#website").text(locationsArray[i].website);
+          $("#website").html("<a href='" + locationsArray[i].website + "' target='_blank'>" + locationsArray[i].website + "</a>");
           $("#type").text(locationsArray[i].type);
           $("#restrictions").text(locationsArray[i].restrictions);
         }
       }
     });
 
-
-    //   marker.openOrClose = true;
-    //
-    //   openInfoWindows.push(marker);
-    //   console.log(openInfoWindows);
-    //
-    //   for (var i = 0; i <= locationsArray;i++){
-    //     if (marker.id === locationsArray[i].id) {
-    //       console.log("this worked");
-    //     }
-
-
-    // for (var i = 0; i <= locationsArray;i++){
-    //   for (var i = 0; i <= openInfoWindows;i++) {
-    //     if (openInfoWindows[i].id === locationsArray[i].id) {
-    //       console.log(marker.id);
-    //     }
-    //   }
-    // }
-
-
+    infoWindow.addListener("closeclick", function(){
+      $("#locationInfoDisplay").hide();
+    });
   };
-
-    //Listener function for connecting to display divs
-  //   marker.addListener("click", function(){
-  //     for (var i = 0; i <= locationsArray;i++) {
-  //       if (marker.id === locationsArray[i].id) {
-  //         console.log(marker.id);
-  //       }
-  //     }
-  //   });
-
-
-
-
 };
-
-//Listener Function
-// marker.addListener("click", function(){
-//   var prev_infoWindow = infoWindow.open(map, marker)
-//
-// });
-
-//Listener Function for OPen infoWindow
-// var prev_infowindow = false;
-// var currentInfoWindow = '';
-// for (var i = 0;i <= openInfoWindows.length; i++) {
-//   if (openInfoWindows[i].openOrClose === true) {
-//     alert("hi")
-//     // infoWindow.close();
-//   } else {
-//
-//   }
-// }
-// for (var i = 0; i <= locationsArray.length;i++) {
-//   if (marker.click.id === locationsArray[i]) {
-//     console.log(marker.id);
-//     // $("#locationInfoDisplay").text()
-//   }
-// }
 };
 
 //UI for Daily calendar on index.html
