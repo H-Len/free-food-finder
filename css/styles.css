@@ -45,6 +45,10 @@
 }
 
 /* styling for calendar */
+body {
+  background-color: #ada16d;
+}
+
 .explanation {
   display: flex;
   align-items: center;
@@ -179,3 +183,11 @@
   padding-right: 10px;
   font-size: 18px;
 }
+#hyper a {
+  color: #175459;
+  text-decoration: none;
+}
+
+/* #hyper {
+  list-style: none;
+} */
