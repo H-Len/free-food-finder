@@ -10,6 +10,7 @@
   color: #a38e1a;
   font-size: 20px;
   padding: 10px;
+}
 
 #indexNav {
   overflow: hidden;
@@ -17,16 +18,19 @@
   position: fixed;
   top: 0;
   width: 88%;
-  padding-bottom: 3px;
+  padding-bottom: 2px;
 }
 
 #indexNav a {
   text-align: left;
   display: block;
-  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+#indexNav a:hover {
+  color: #000000;;
 }
 
 .jumbotron {

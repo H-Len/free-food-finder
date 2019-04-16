@@ -1,13 +1,13 @@
 //Business Logic for Google Map API
 
 
-// function initMap() {
-//   var options = {
-//     zoom: 8,
-//     center: {lat: 45.5155, lng: -122.6793}
-//   }
-//   var map = new google.maps.Map(document.getElementById('map'), options);
-// }
+function initMap() {
+  var options = {
+    zoom: 8,
+    center: {lat: 45.5155, lng: -122.6793}
+  }
+  var map = new google.maps.Map(document.getElementById('map'), options);
+}
 
 
 //Business Logic for FOOD-location OBJECT
