@@ -80,15 +80,12 @@ function initMap() {
     });
     //Listener Function
     marker.addListener("click", function(){
-      infoWindow.open(map, marker)
-      marker[]
-        infoWindow.close(map, marker);
-      } else {
-        infoWindow.open(map, marker)
-      }
+      var prev_infoWindow = infoWindow.open(map, marker)
+
     });
 
-    }
+    //Listener Function for OPen infoWindow
+    };
   };
 };
 
