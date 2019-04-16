@@ -1,7 +1,7 @@
-/*
+
 body {
   background-color: #afaea8;
-} */
+}
 
 .box.flex {
   display: flex;
@@ -10,8 +10,9 @@ body {
   color: #a38e1a;
   font-size: 20px;
   padding: 10px;
-}  
+}
 
+/* nav bar css -----------> */
 #indexNav {
   overflow: hidden;
   background-color: #FFFFFF;
@@ -19,6 +20,9 @@ body {
   top: 0;
   width: 88%;
   padding-bottom: 2px;
+  padding-top: 2px;
+  margin-bottom: 2px;
+  opacity: 0.8;
 }
 
 #indexNav a {
@@ -29,13 +33,23 @@ body {
   text-decoration: none;
 }
 
-#indexNav a:hover {
-  color: #000000;;
+.isDisabled {
+  color: #000000;
+  text-decoration: none;
+  pointer-events: none;
+  font-weight: bold;
 }
+
+#indexNav a:hover {
+  color: #000000;
+  font-weight: bold;
+}
+
+/* nav bar css end ---------> */
 
 .jumbotron {
   padding: 3px;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .jumbotron h1 {
@@ -47,6 +61,15 @@ body {
   text-align: center;
   letter-spacing: 5px;
   line-height: 30px;
+}
+
+#tableIndex {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: #e0cf35;
+  font-size: 20px;
+  text-align: center;
+  padding: 2px;
 }
 
 /*CSS STYLING FOR searchByLocation.html*/

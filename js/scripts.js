@@ -79,12 +79,8 @@ function initMap() {
       content: props.content
     });
     //Listener Function
-    marker.addListener("click", function(){
-      var prev_infoWindow = infoWindow.open(map, marker)
-
-    });
-
-    //Listener Function for OPen infoWindow
+    marker.addListener("click", function () {
+         infoWindow.open(map, marker);
     };
   };
 };
@@ -132,4 +128,3 @@ var downtown2 = new FoodLocation (45.506120, -122.698770, "Portland State Univer
 
 
 //UI for Daily calendar on index.html
-
