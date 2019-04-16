@@ -173,3 +173,4 @@ function initMap() {
 };
 
 //UI for Daily calendar on index.html
+

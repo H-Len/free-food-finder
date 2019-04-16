@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
   <html lang="en">
     <head>
@@ -10,6 +11,7 @@
     <body class="container">
       <h1 class="jumbotron">Search By Location</h1>
       <div id="map"></div>
+
       <div id="locationInfoDisplay">
         <h1 id="name"></h1>
         <h3><strong>Region: </strong><span id="region"></span></h3>
@@ -21,43 +23,7 @@
         <h3><strong>Location Offerings: </strong><span id="type"></span></h3>
         <h4><strong>Things to know: </strong><span id="restrictions"></span></h4>
       </div>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNblXYzXTPNoy9voB9ZvU8tCDxZjktwvE&callback=initMap"
+      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE&callback=initMap"
       async defer></script>
     </body>
   </html>
-
-
-
-
-
-  <!-- // var arrayOfInfoWindows = [];
-  // infoWindow.open(map, marker);
-  // arrayOfInfoWindows.push(infoWindow);
-  // for (var i = 0; i <= arrayOfInfoWindows.length; i++) {
-  //   if (arrayOfInfoWindows[i].status === true) {
-  //     arrayOfInfoWindows[i].close();
-  //     alert("hiiii");
-  //   }
-  // }
-  // infoWindow.status = true;
-  // console.log(infoWindow.status);
-  // console.log(arrayOfInfoWindows);
-    //
-    // if (currentInfoWindow === true) {
-    //   currentInfoWindow.close();
-    // }
-    //
-    // currentInfoWindow = infoWindow.open(map, marker);
-    // if (currentInfoWindow) {
-    //   marker.openOrClose = true
-    // }
-
-  // if(prev_infowindow) {
-  //     function clearMarkers() {
-  //     setMapOnAll(null);
-  //     }
-  //   }
-  //   // console.log(prev_infowindow);
-  //   prev_infowindow = infoWindow;
-  //   infoWindow.open(map, marker);
-  // }); -->
