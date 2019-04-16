@@ -10,7 +10,7 @@ body {
   color: #a38e1a;
   font-size: 20px;
   padding: 10px;
-}  
+}
 
 #indexNav {
   overflow: hidden;
@@ -54,4 +54,15 @@ body {
   height: 400px;
   width: 100%;
 
+}
+
+#locationInfoDisplay {
+  margin-top: 20px;
+  padding: 10px;
+  display: none;
+  border: 2px solid black;
+}
+
+#locationInfoDisplay h1 {
+  border-bottom: 2px solid black;
 }
