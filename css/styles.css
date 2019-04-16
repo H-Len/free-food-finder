@@ -1,15 +1,7 @@
-body {
+<<<<<<< HEAD
+/* body {
   background-color: #afaea8;
-}
-
-h1 {
-  text-align: center;
-  /* font-weight: bolder; */
-}
-
-.jumbotron {
-  background-color: #af9511;
-}
+} */
 
 .box.flex {
   display: flex;
@@ -18,4 +10,44 @@ h1 {
   color: #a38e1a;
   font-size: 20px;
   padding: 10px;
+=======
+#indexNav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 88%;
+  padding-bottom: 3px;
+}
+
+#indexNav a {
+  text-align: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.jumbotron {
+  padding: 3px;
+  margin-top: 5%;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+.jumbotron h3 {
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 30px;
+}
+
+/*CSS STYLING FOR searchByLocation.html*/
+#map {
+  height: 400px;
+  width: 100%;
+>>>>>>> master
 }
