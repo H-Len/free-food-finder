@@ -1,8 +1,7 @@
 $(document).ready(function(){
 
   var question = document.getElementsByClassName("collapsible");
-  var i;
-    for (i = 0; i < question.length; i++) {
+    for (var i = 0; i < question.length; i++) {
     question[i].addEventListener("click", function() {
       this.classList.toggle("active");
       var answer = this.nextElementSibling;

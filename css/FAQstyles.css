@@ -52,10 +52,12 @@
   text-align: left;
   outline: none;
   font-size: 15px;
+  border-radius: 5px;
+  margin-top: 5px;
 }
 
 .active, .collapsible:hover {
-  color: lime;
+  color: yellow;
 }
 
 .collapsible:after {
@@ -86,3 +88,30 @@
 #FAQ {
   padding: 10px;
 }
+
+.advocate img {
+  width: 100px;
+  height: 80px;
+  margin-bottom: 10%;
+  border-radius: 70%;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+/* .donate img {
+  width: 100px;
+  height: 80px;
+  margin-bottom: 10%;
+  border-radius: 90%;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.volunteer img {
+  width: 100px;
+  height: 80px;
+  margin-bottom: 10%;
+  border-radius: 90%;
+  border: 2px solid black;
+  padding: 10px;
+} */
