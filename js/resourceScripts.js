@@ -16,4 +16,4 @@ function Resource(name, phoneNumber, link) {
 //   }
 // }
 
-var trimetResource = new Resource(tripPlannerTrimet, 5032387433, https://trimet.org/ride/m/planner_form.html )
+// var trimetResource = new Resource(tripPlannerTrimet, 5032387433, https://trimet.org/ride/m/planner_form.html )
