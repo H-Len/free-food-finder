@@ -1,0 +1,117 @@
+
+/* nav bar css -----------> */
+#indexNav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0 0 0 0;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  margin-bottom: 2px;
+  opacity: 0.8;
+}
+
+#indexNav a {
+  text-align: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.isDisabled {
+  color: #000000;
+  text-decoration: none;
+  pointer-events: none;
+  font-weight: bold;
+}
+
+#indexNav a:hover {
+  color: #000000;
+  font-weight: bold;
+}
+
+/* nav bar css end ---------> */
+
+/* collapsible start -----------> */
+
+.questions {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.active, .collapsible:hover {
+  color: yellow;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.1s ease-out;
+  background-color: #f1f1f1;
+}
+
+.jumbotron h4 {
+  text-align: center;
+
+}
+
+#FAQ {
+  padding: 10px;
+}
+
+.advocate img {
+  width: 100px;
+  height: 80px;
+  margin-bottom: 10%;
+  border-radius: 70%;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+/* .donate img {
+  width: 100px;
+  height: 80px;
+  margin-bottom: 10%;
+  border-radius: 90%;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.volunteer img {
+  width: 100px;
+  height: 80px;
+  margin-bottom: 10%;
+  border-radius: 90%;
+  border: 2px solid black;
+  padding: 10px;
+} */
