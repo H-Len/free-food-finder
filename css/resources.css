@@ -1,16 +1,137 @@
-body {
-  background-color: #afaea8;
+
+background {
+  color: inherit;
 }
 
 h1 {
   text-align: center;
-  text-decoration: underline;
 }
 
 h4 {
   text-align: center;
 }
 
+.item {
+  height: 300px;
+  margin: 10px;
+}
+
+.minors {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-image: url("https://images.unsplash.com/photo-1462124287839-ee1ece9198c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.minors p {
+  text-align: center;
+  margin: 30px;
+  background-color: gray;
+  padding: 70px;
+  border-radius: 70%;
+  margin-top: -5px;
+  opacity: 0.8;
+  /* border-radius: 50%; */
+}
+
+.fruits {
+  display: flex;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fruits p {
+  text-align: center;
+  margin: 30px;
+  background-color: gray;
+  padding: 70px;
+  border-radius: 70%;
+  margin-top: -5px;
+  opacity: 0.8;
+  /* border-radius: 50%; */
+}
+
+.foodBank {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-image: url("http://www.rosywoodmahemuestate.com/wp-content/uploads/pexels-photo-176169-2000x1152.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.foodBank p {
+  text-align: center;
+  margin: 30px;
+  background-color: gray;
+  padding: 70px;
+  border-radius: 70%;
+  margin-top: -5px;
+  opacity: 0.8;
+  /* border-radius: 50%; */
+}
+
+.county {
+  display: flex;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.county p {
+  text-align: center;
+  margin: 30px;
+  background-color: gray;
+  padding: 70px;
+  border-radius: 70%;
+  margin-top: -5px;
+  opacity: 0.8;
+  /* border-radius: 50%; */
+}
+
+.travel {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  background-image: url("https://images.unsplash.com/photo-1551042863-dbb4938b111f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.travel p {
+  text-align: center;
+  margin: 30px;
+  background-color: gray;
+  padding: 70px;
+  border-radius: 70%;
+  margin-top: -5px;
+  opacity: 0.8;
+  /* border-radius: 50%; */
+}
+
+
+
+
+
+/* Old circles code --------------> */
 
 /**
  * Circle Styles
@@ -19,7 +140,7 @@ h4 {
   * Circle Styles
   */
 
- .circle {
+ /* .circle {
    position: relative;
    display: block;
    margin: 2em 0;
@@ -74,7 +195,7 @@ h4 {
 
 .scaled {
   transform: scale(0.35);
-}
+} */
 /*
 
 .listPossible {
