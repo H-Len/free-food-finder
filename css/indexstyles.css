@@ -57,13 +57,15 @@ body {
   }
 
 #mainHeader {
-  display: flex;
-  justify-content: center;
-  align-items: end;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: end; */
+  text-align: center;
   background-color: #a8adac;
-  font-size: 200px;
+  font-size: 120px;
   font-family: quirkyRobot;
   padding-top: 20px;
+  color: #232625;
 }
 
   /* logo & header styling end */
@@ -74,7 +76,7 @@ body {
   font-size: 18px;
   padding: 15px 15px 15px 15px;
   border: 2px solid black;
-  background-color:
+  background-color: 
 
 }
 
