@@ -104,10 +104,6 @@
   text-decoration: none;
 }
 
-.contact a {
-  color: pink;
-}
-
 .item {
   height: 300px;
   /* width: 400px; */
@@ -132,7 +128,7 @@
 .lineBreaker img {
   height: 200px;
   width: 500px;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 /* collapsible start -----------> */
