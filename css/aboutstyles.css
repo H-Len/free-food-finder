@@ -2,7 +2,7 @@
 /* nav bar css -----------> */
 #indexNav {
   overflow: hidden;
-  background-color: #e4c4ff;
+  background-color: #CDAF50;
   position: fixed;
   top: 0;
   width: 100%;
@@ -19,6 +19,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 .isDisabled {
