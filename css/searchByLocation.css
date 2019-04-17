@@ -1,0 +1,134 @@
+/* nav bar css -----------> */
+#indexNav {
+  overflow: hidden;
+  background-color: #e4c4ff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0 0 0 0;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  margin-bottom: 2px;
+  opacity: 0.8;
+}
+
+#indexNav a {
+  text-align: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.isDisabled {
+  color: #000000;
+  text-decoration: none;
+  pointer-events: none;
+  font-weight: bold;
+}
+
+#indexNav a:hover {
+  color: #000000;
+  font-weight: bold;
+}
+
+/* nav bar css end ---------> */
+
+/*Header logo STYLING*/
+@font-face {
+  font-family: quirkyRobot;
+  src: url(../img/quirkyRobot.ttf);
+}
+
+#blackLine {
+  border-bottom: 20px solid black;
+}
+
+#header {
+  margin-top: 100px;
+}
+
+#header h1{
+  margin-left: 20px;
+  font-family: quirkyRobot;
+  font-size: 100px;
+  float: right;
+  padding-top: 8%;
+}
+
+#headerLogo {
+  float: left;
+  height: 275px;
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+/*CSS STYLING FOR searchByLocation.html*/
+#map {
+  height: 500px;
+  width: 100%;
+  align-items: center;
+  border: 3px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+#locationInfoDisplay {
+  margin: 40px;
+  padding: 10px;
+  display: none;
+  border: 2px solid black;
+  font-family: serif;
+  background-color: rgb(255,255,255, 0.7);
+
+}
+
+#locationInfoDisplay h1 {
+  border-bottom: 2px solid black;
+  font-family: serif;
+  font-weight: 600;
+}
+
+#hiddenInfo {
+  display: none;
+}
+
+.intro {
+  display: flex;
+  color: black;
+  background-image: url(../img/wheatBackground.png);
+  /* Parallax  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.infoDisplay {
+  display: flex;
+  color: black;
+  background-image: url(../img/wheatBackground.png);
+  /* Parallax  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px;
+}
+
+.advocate img {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  margin-bottom: 5%;
+  border-radius: 70%;
+  border: 1.3px solid black;
+  padding: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
