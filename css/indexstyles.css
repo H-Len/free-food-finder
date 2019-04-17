@@ -73,12 +73,12 @@ body {
   /* welcome blurb styling */
 
 h1 {
-  text-align: right;
+  text-align: center;
   padding-top: 40px;
 }
 
 #welcome p {
-  text-align: right;
+  text-align: center;
   padding-bottom: 30px;
 }
 
@@ -110,7 +110,7 @@ h1 {
   padding: 3px;
   margin-top: 40px;
   border: 2px solid black;
-  background: #a8adac;
+  background: #D3D6D4;
 }
 
 #date h2 {
@@ -133,7 +133,7 @@ h1 {
 
 .col {
   /* color of slide menu */
-  background: #BDBA60;
+  background: #CDAF50;
   color: #000000;
   position: relative;
   overflow: hidden;
@@ -236,6 +236,35 @@ a:hover {
 a {
   text-decoration: none;
 }
-
-
 /* End flexbox table ---------> */
+
+/* begin styling for seasonalDates */
+.seasonalDates {
+  display: flex;
+  justify-content: center;
+}
+
+#fig img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 0px 10px 0px 10px;
+}
+#plums img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 0px 10px 0px 10px;
+}
+#blackberries img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 0px 10px 0px 10px;
+}
+#apples img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin: 0px 10px 0px 10px;
+}
