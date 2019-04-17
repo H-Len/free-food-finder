@@ -1,0 +1,205 @@
+
+/* nav bar css -----------> */
+#indexNav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0 0 0 0;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  margin-bottom: 2px;
+  opacity: 0.8;
+}
+
+#indexNav a {
+  text-align: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.isDisabled {
+  color: #000000;
+  text-decoration: none;
+  pointer-events: none;
+  font-weight: bold;
+}
+
+#indexNav a:hover {
+  color: #000000;
+  font-weight: bold;
+}
+
+/* nav bar css end ---------> */
+
+/* Flex stuff---------> */
+
+.about {
+  display: flex;
+  margin-top: 8%;
+  flex-direction: row-reverse;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.about h1 {
+  text-align: right;
+  letter-spacing: 2px;
+}
+
+.about p {
+  text-align: right;
+  margin-left: 30%;
+}
+
+.mission {
+  display: flex;
+  color: #FFFFFF;
+  background-image: url(../img/mission.png);
+  /* Parallax  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  padding-left: 10px;
+  /* border: 2px solid black; */
+}
+
+.mission p {
+  margin-right: 40%;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.mission h1 {
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.contact {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row-reverse;
+  /* border: 2px solid black; */
+}
+
+.contact h1 {
+  text-align: right;
+  letter-spacing: 2px;
+}
+
+.contact p {
+  text-align: right;
+  margin-left: 300px;
+}
+
+.contact a:hover{
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact a {
+  color: pink;
+}
+
+.item {
+  height: 300px;
+  /* width: 400px; */
+  margin: 10px;
+  /* text-align: justify; */
+}
+
+.social {
+  margin-top: 80px;
+  padding-bottom: 3%;
+  /* border-bottom: 1px solid gray; */
+}
+
+.social img {
+  width: 80px;
+  height: 80px;
+  /* margin-bottom: 10%; */
+  border-radius: 70%;
+  padding: 10px;
+}
+
+.lineBreaker img {
+  height: 200px;
+  width: 500px;
+
+}
+
+/* collapsible start -----------> */
+
+.questions {
+  margin-top: 0%;
+  margin-bottom: 100px;
+}
+
+
+
+#FAQ h1{
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.active, .collapsible:hover {
+  color: yellow;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.1s ease-out;
+  background-color: #f1f1f1;
+  padding-top: 5px;
+}
+
+.jumbotron h4 {
+  text-align: center;
+
+}
+
+.advocate img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10%;
+  border-radius: 70%;
+  border: 1.3px solid black;
+  padding: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+}

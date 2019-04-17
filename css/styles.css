@@ -2,17 +2,18 @@
   border:1px dashed black;
 } */
 
-body {
+/* body {
   background-color: #afaea8;
-}
+} */
 
 /* nav bar css -----------> */
 #indexNav {
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: #e4c4ff;
   position: fixed;
   top: 0;
-  width: 92.5%;
+  width: 100%;
+  margin: 0 0 0 0;
   padding-bottom: 2px;
   padding-top: 2px;
   margin-bottom: 2px;
@@ -41,118 +42,20 @@ body {
 
 /* nav bar css end ---------> */
 
-.jumbotron {
-  padding: 3px;
-  margin-top: 10%;
-}
-
-.jumbotron h1 {
-  text-align: center;
-  font-size: 80px;
-}
-
-.jumbotron h3 {
-  text-align: center;
-  letter-spacing: 5px;
-  line-height: 30px;
-}
-
-#date {
-  width: 30%
-  margin-bottom: 0%;
-}
-
-#date h2 {
-  text-align: center;
-  font-size: 20px;
-  letter-spacing: 4px;
-  padding-top: 10px;
-}
-
-/* Flexbox for index start -------> */
-.content {
+.box.flex {
   display: flex;
-  height: 400px;
-  color: black;
-  overflow: hidden;
-  border: 5px solid black;
-}
-
-.col {
-  position: relative;
-  overflow: hidden;
-  flex-grow: 1;
-  flex-basis: 0;
-  transition: flex-grow .3s;
-  transform: skew(-20deg, 0);
-  background: yellow;
-  padding-right: 10px;
-  color: #000000;
-}
-
-.col + .col {
-  border-left: 10px solid black;
-}
-
-.col:first-child {
-  margin-left: -100px;
-  padding-left: 80px;
-}
-.col:last-child {
-  margin-right: -100px;
-}
-
-.col::before {
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: calc(100% + 200px);
-  margin-left: -100px;
-  display: block;
-  background-attachment: fixed;
-  transform: skew(30deg, 0);
-}
-
-.col:hover {
-  flex-grow: 4;
-  transition: flex-grow .3s;
-}
-
-.col h1 {
-  margin: 0;
+  justify-content: center;
+  align-items: center;
+  color: #a38e1a;
+  font-size: 20px;
   padding: 10px;
-  transform: skew(20deg, 0);
-}
-
-.col:first-child h1 {
-  margin-left: 40px;
-}
-
-
-#col1 {
- /* color: red; */
- padding-left: 70px;
-}
-
-
-#col2 {
- /* color: green; */
-}
-
-#col3 {
- /* color: blue; */
- padding-right: 70px;
-}
-
-/* End flexbox table ---------> */
-
-/*CSS STYLING FOR searchByLocation.html*/
-#map {
-  height: 400px;
-  width: 100%;
 }
 
 /* styling for calendar */
+/* body {
+  background-color: #ada16d;
+} */
+
 .explanation {
   display: flex;
   align-items: center;
@@ -162,33 +65,36 @@ body {
 }
 
 .explanation1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 4px solid lightgray;
   width: 240px;
-  height: 200px;
+  height: 240px;
   border-radius: 50%;
-  padding: 10px;
-  padding-top: 30px;
-  margin-right: 10px;
+  padding: 20px;
   text-align: center;
   background-color: lightgray;
   font-size: 14px;
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
+
 .explanation1:hover {
   transform: scale(1.2);
   font-weight: bold;
 }
 
 .explanation2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
   border: 4px solid lightgray;
   width: 240px;
-  height: 200px;
+  height: 240px;
   border-radius: 50%;
-  padding: 10px;
-  padding-top: 30px;
-  margin-right: 10px;
-  text-align: center;
   background-color: lightgray;
   font-size: 14px;
   line-height: 30px;
@@ -200,13 +106,14 @@ body {
 }
 
 .explantion3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   border: 4px solid lightgray;
   width: 240px;
-  height: 200px;
+  height: 240px;
   border-radius: 50%;
-  padding: 10px;
-  padding-top: 30px;
-  margin-right: 10px;
   text-align: center;
   background-color: lightgray;
   font-size: 14px;
@@ -219,13 +126,14 @@ body {
 }
 
 .explantion4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 4px solid lightgray;
   width: 240px;
-  height: 200px;
+  height: 240px;
   border-radius: 50%;
-  padding: 10px;
-  padding-top: 30px;
-  margin-right: 10px;
+  padding: 20px;
   text-align: center;
   background-color: lightgray;
   font-size: 14px;
@@ -283,14 +191,62 @@ body {
   font-size: 18px;
 }
 
+#hyper a {
+  color: #175459;
+  text-decoration: none;
+}
+
+/*CSS STYLING FOR searchByLocation.html*/
+#map {
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  border: 3px dashed black;
+  padding: 20px;
+  margin: 20px;
+}
+
 #locationInfoDisplay {
-  margin-top: 20px;
+  margin: 40px;
   padding: 10px;
   display: none;
   border: 2px solid black;
+  font-family: serif;
 }
 
 #locationInfoDisplay h1 {
   border-bottom: 2px solid black;
+  font-family: serif;
+  font-weight: 600;
 }
 
+#mapBody h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: serif;
+}
+/*Header logo STYLING*/
+@font-face {
+  font-family: quirkyRobot;
+  src: url(../img/quirkyRobot.ttf);
+}
+
+
+#header {
+  margin-top: 100px;
+}
+
+#header h1{
+  margin-left: 20px;
+  font-family: quirkyRobot;
+  font-size: 100px;
+  float: right;
+  padding-top: 8%;
+}
+
+#headerLogo {
+  float: left;
+  height: 275px;
+  width: 400px;
+  margin-bottom: 100px;
+}
