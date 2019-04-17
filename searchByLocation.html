@@ -3,14 +3,14 @@
   <html lang="en">
     <head>
       <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-      <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <link href="css/searchByLocation.css" rel="stylesheet" type="text/css">
       <script src="js/jquery-3.3.1.js"></script>
       <script src="js/scripts.js"></script>
       <link rel="shortcut icon" type="image/png" href="img/favicon.png">
       <title>Search By Location</title>
     </head>
     <body>
-      <div class="row">
+      <div class="row" id="blackLine">
         <div class="col-lg-12">
 
       <div id="header" class="container">
@@ -52,23 +52,42 @@
 
       <!-- //Navbar end ------->
       <div class="container">
-      <div id="mapBody">
-        <h1><strong>Click a red marker on the map to see location information</strong></h1>
-        <div id="map"></div>
+        <div class="intro">
+          <div class="item">
+            <h1><strong>Click a red marker on the map to see location information</strong></h1>
+          </div>
+        </div>
       </div>
 
-      <div id="locationInfoDisplay">
-        <h1 id="name"><strong></strong></h1>
-        <h3><strong>Region: </strong><span id="region"></span></h3>
-        <h3><strong>Phone Number: </strong><span id="phoneNumber"></span></h3>
-        <h3><strong>Address: </strong><span id="address"></span></h3>
-        <h3><strong>Open Days: </strong><span id="dayOfMonth"></span></h3>
-        <h3><strong>Open hours: </strong><span id="hours"></span></h3>
-        <h3><strong>Website: </strong><span id="website"></span></h3>
-        <h3><strong>Location Offerings: </strong><span id="type"></span></h3>
-        <h4><strong>Things to know: </strong><span id="restrictions"></span></h4>
+      <div class="container">
+        <div id="map"></div>
+
+      </div>
+      <div id="hiddenInfo">
+
+      <div class="infoDisplay">
+        <div class="item">
+          <div id="locationInfoDisplay">
+            <h1 id="name"><strong></strong></h1>
+            <h3><strong>Region: </strong><span id="region"></span></h3>
+            <h3><strong>Phone Number: </strong><span id="phoneNumber"></span></h3>
+            <h3><strong>Address: </strong><span id="address"></span></h3>
+            <h3><strong>Open Days: </strong><span id="dayOfMonth"></span></h3>
+            <h3><strong>Open hours: </strong><span id="hours"></span></h3>
+            <h3><strong>Website: </strong><span id="website"></span></h3>
+            <h3><strong>Location Offerings: </strong><span id="type"></span></h3>
+            <h4><strong>Things to know: </strong><span id="restrictions"></span></h4>
+          </div>
+        </div>
       </div>
     </div>
+    <div class="otherFAQ">
+      <div class="advocate" align="center">
+        <a href="#"><img src="img/advocate.png" alt="A vector of a speech bubble"></a>
+        <a href="#"><img src="img/donate.png" alt="A vector of a speech bubble"></a>
+        <a href="#"><img src="img/volunteer.png" alt="A vector of a speech bubble"></a>
+      </div>
+    </div>s
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNblXYzXTPNoy9voB9ZvU8tCDxZjktwvE&callback=initMap"
       async defer></script>
     </body>

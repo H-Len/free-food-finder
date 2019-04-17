@@ -42,19 +42,23 @@
 
 /* nav bar css end ---------> */
 
-.box.flex {
+/* .box.flex {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #a38e1a;
   font-size: 20px;
   padding: 10px;
-}
+} */
 
 /* styling for calendar */
 /* body {
   background-color: #ada16d;
 } */
+
+.infoBubbles {
+  margin-top: 40px;
+}
 
 .explanation {
   display: flex;
@@ -68,13 +72,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid lightgray;
+  border: 4px solid black;
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
-  background-color: lightgray;
+  color: white;
+  background-image: url(../img/nature3.jpg);
+  /* background-color: lightgray; */
   font-size: 14px;
   line-height: 30px;
   transition: all .2s ease-in-out;
@@ -90,12 +96,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
-  border: 4px solid lightgray;
+  padding: 30px;
+  border: 4px solid black;
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background-color: lightgray;
+  color: white;
+  background-image: url(../img/nature2.jpg);
+  /* background-color: lightgray; */
   font-size: 14px;
   line-height: 30px;
   transition: all .2s ease-in-out;
@@ -110,13 +118,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  border: 4px solid lightgray;
+  padding: 30px;
+  border: 4px solid black;
   width: 240px;
   height: 240px;
   border-radius: 50%;
   text-align: center;
-  background-color: lightgray;
+  color: white;
+  background-image: url(../img/nature7.jpg);
+  /* background-color: lightgray; */
   font-size: 14px;
   line-height: 30px;
   transition: all .2s ease-in-out;
@@ -131,13 +141,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid lightgray;
+  border: 4px solid black;
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
-  background-color: lightgray;
+  color: white;
+  background-image: url(../img/nature6.jpg);
+  /* background-color: lightgray; */
   font-size: 14px;
   line-height: 30px;
   transition: all .2s ease-in-out;
@@ -175,7 +187,7 @@
   color: orange;
 }
 
-.card-title {
+/* .card-title {
   text-align: center;
   border: 2px solid lightgray;
   padding: 5px;
@@ -185,9 +197,9 @@
 
 .card {
   background-color: gray;
-}
+} */
 
-#mapLink {
+/* #mapLink {
   background-color: gray;
   padding-right: 10px;
   font-size: 18px;
@@ -196,43 +208,43 @@
 #hyper a {
   color: #175459;
   text-decoration: none;
-}
+} */
 
-/*CSS STYLING FOR searchByLocation.html*/
-#map {
-  height: 400px;
-  width: 100%;
-  align-items: center;
-  border: 3px dashed black;
-  padding: 20px;
-  margin: 20px;
-}
-
-#locationInfoDisplay {
-  margin: 40px;
-  padding: 10px;
-  display: none;
+#legendBoxTitle {
+  background-color: grey;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 30px;
   border: 2px solid black;
-  font-family: serif;
 }
 
-#locationInfoDisplay h1 {
-  border-bottom: 2px solid black;
-  font-family: serif;
-  font-weight: 600;
+#legendBox {
+  background-color: grey;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-#mapBody h1 {
-  font-size: 40px;
-  text-align: center;
-  font-family: serif;
+.advocate img {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  margin-bottom: 5%;
+  border-radius: 70%;
+  border: 1.3px solid black;
+  padding: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
+
 /*Header logo STYLING*/
 @font-face {
   font-family: quirkyRobot;
   src: url(../img/quirkyRobot.ttf);
 }
 
+#blackLine {
+  border-bottom: 20px solid black;
+}
 
 #header {
   margin-top: 100px;
@@ -250,5 +262,5 @@
   float: left;
   height: 275px;
   width: 400px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }

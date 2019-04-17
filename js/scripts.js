@@ -151,7 +151,11 @@ function initMap() {
       infoWindow.open(map, marker);
       for (var i = 0; i <= locationsArray.length;i++){
         if (props.id === locationsArray[i].id) {
+          $("#hiddenInfo").show();
           $("#locationInfoDisplay").show();
+          $('html, body').animate({
+            scrollTop: $("#locationInfoDisplay").offset().top
+          }, 1000);
           $("#name").text(locationsArray[i].name);
           $("#region").text(locationsArray[i].region);
           $("#phoneNumber").text(locationsArray[i].phoneNumber);
