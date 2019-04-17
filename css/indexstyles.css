@@ -73,12 +73,12 @@ body {
   /* welcome blurb styling */
 
 h1 {
-  text-align: right;
+  text-align: center;
   padding-top: 40px;
 }
 
 #welcome p {
-  text-align: right;
+  text-align: center;
   padding-bottom: 30px;
 }
 
@@ -110,7 +110,7 @@ h1 {
   padding: 3px;
   margin-top: 40px;
   border: 2px solid black;
-  background: #a8adac;
+  background: #D3D6D4;
 }
 
 #date h2 {
