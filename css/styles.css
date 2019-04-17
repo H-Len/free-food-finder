@@ -2,14 +2,14 @@
   border:1px dashed black;
 } */
 
-body {
+/* body {
   background-color: #afaea8;
-}
+} */
 
 /* nav bar css -----------> */
 #indexNav {
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: #e4c4ff;
   position: fixed;
   top: 0;
   width: 100%;
@@ -51,17 +51,10 @@ body {
   padding: 10px;
 }
 
-
-/*CSS STYLING FOR searchByLocation.html*/
-#map {
-  height: 400px;
-  width: 100%;
-}
-
 /* styling for calendar */
-body {
+/* body {
   background-color: #ada16d;
-}
+} */
 
 .explanation {
   display: flex;
@@ -203,13 +196,57 @@ body {
   text-decoration: none;
 }
 
+/*CSS STYLING FOR searchByLocation.html*/
+#map {
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  border: 3px dashed black;
+  padding: 20px;
+  margin: 20px;
+}
+
 #locationInfoDisplay {
-  margin-top: 20px;
+  margin: 40px;
   padding: 10px;
   display: none;
   border: 2px solid black;
+  font-family: serif;
 }
 
 #locationInfoDisplay h1 {
   border-bottom: 2px solid black;
+  font-family: serif;
+  font-weight: 600;
+}
+
+#mapBody h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: serif;
+}
+/*Header logo STYLING*/
+@font-face {
+  font-family: quirkyRobot;
+  src: url(../img/quirkyRobot.ttf);
+}
+
+
+#header {
+  margin-top: 100px;
+}
+
+#header h1{
+  margin-left: 20px;
+  font-family: quirkyRobot;
+  font-size: 100px;
+  float: right;
+  padding-top: 8%;
+}
+
+#headerLogo {
+  float: left;
+  height: 275px;
+  width: 400px;
+  margin-bottom: 100px;
 }
