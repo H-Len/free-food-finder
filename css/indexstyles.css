@@ -1,3 +1,7 @@
+@font-face {
+  font-family: quirkyRobot;
+  src: url(img/quirkyRobot.ttf);
+}
 /* * {
   border:1px dashed black;
 } */
@@ -42,12 +46,51 @@ body {
 }
 
 /* nav bar css end ---------> */
+/* styling for logo & header  */
 
-#welcome {
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  background-color: #a8adac;
+  }
+
+#mainHeader {
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: end; */
+  text-align: center;
+  background-color: #a8adac;
+  font-size: 100px;
+  font-weight: lighter;
+  /* font-family: quirkyRobot; */
+  padding-top: 20px;
+  color: #232625;
+}
+
+  /* logo & header styling end */
+  /* welcome blurb styling */
+
+h1 {
+  text-align: right;
+  padding-top: 40px;
+}
+
+#welcome p {
+  text-align: right;
+  padding-bottom: 30px;
+}
+
+
+
+  /* welcome blurb styling end */
+
+/* #welcome {
   padding: 3px;
   margin-top: 10%;
   border: 2px solid black;
-}
+} */
 
 .jumbotron h1 {
   text-align: center;
@@ -65,8 +108,9 @@ body {
   width: 30%
   margin-bottom: -30%;
   padding: 3px;
-  margin-top: 10%;
+  margin-top: 40px;
   border: 2px solid black;
+  background: #a8adac;
 }
 
 #date h2 {
@@ -83,11 +127,13 @@ body {
   color: black;
   overflow: hidden;
   border: 5px solid black;
+  border-radius: 8px;
   margin-bottom: 10%;
 }
 
 .col {
-  background: yellow;
+  /* color of slide menu */
+  background: #BDBA60;
   color: #000000;
   position: relative;
   overflow: hidden;
@@ -166,8 +212,9 @@ body {
 
 .content h1 {
   font-size: 50px;
-  letter-spacing: -2px;
+  letter-spacing: 3px;
   padding-left: -1px;
+  font-style: quirkyRobot;
 }
 
 .content p {

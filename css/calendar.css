@@ -108,6 +108,7 @@
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
+
 .explanation2:hover {
   transform: scale(1.2);
   font-weight: bold;
@@ -130,6 +131,7 @@
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
+
 .explantion3:hover {
   transform: scale(1.2);
   font-weight: bold;
