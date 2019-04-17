@@ -6,11 +6,24 @@
       <link href="css/styles.css" rel="stylesheet" type="text/css">
       <script src="js/jquery-3.3.1.js"></script>
       <script src="js/scripts.js"></script>
+      <link rel="shortcut icon" type="image/png" href="img/favicon.png">
       <title>Search By Location</title>
     </head>
     <body>
+      <div class="row">
+        <div class="col-lg-12">
 
+      <div id="header" class="container">
+        <img id="headerLogo" src="img/fff logo black with background.jpg" alt="FFF-PDX logo">
+        <h1>Search By Location</h1>
+      </div>
+
+      </div>
+    </div>
       <!-- //Navbar start ------->
+
+
+
       <nav class="navbar navbar-expand-lg" id="indexNav">
         <img src="img/foodlogo.png" width="40" height="40" alt="A vector of food">Free Food Finder
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,10 +35,7 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="FAQ.html">FAQ</a>
+            <a class="nav-link" href="about-FAQ.html">About/FAQ</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="resources.html">Resources</a>
@@ -39,14 +49,16 @@
           </ul>
         </div>
       </nav>
-      <!-- //Navbar end ------->
 
+      <!-- //Navbar end ------->
       <div class="container">
-        <h1 class="jumbotron">Search By Location</h1>
+      <div id="mapBody">
+        <h1><strong>Click a red marker on the map to see location information</strong></h1>
         <div id="map"></div>
+      </div>
 
       <div id="locationInfoDisplay">
-        <h1 id="name"></h1>
+        <h1 id="name"><strong></strong></h1>
         <h3><strong>Region: </strong><span id="region"></span></h3>
         <h3><strong>Phone Number: </strong><span id="phoneNumber"></span></h3>
         <h3><strong>Address: </strong><span id="address"></span></h3>
@@ -56,7 +68,8 @@
         <h3><strong>Location Offerings: </strong><span id="type"></span></h3>
         <h4><strong>Things to know: </strong><span id="restrictions"></span></h4>
       </div>
-      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE&callback=initMap"
+    </div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNblXYzXTPNoy9voB9ZvU8tCDxZjktwvE&callback=initMap"
       async defer></script>
     </body>
   </html>
