@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+//Uses HTML DOM properties
   var question = document.getElementsByClassName("collapsible");
     for (var i = 0; i < question.length; i++) {
     question[i].addEventListener("click", function() {

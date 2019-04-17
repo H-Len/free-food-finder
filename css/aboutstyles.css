@@ -39,14 +39,15 @@
 
 .about {
   display: flex;
-  margin-top: 50px;
   margin-top: 8%;
   flex-direction: row-reverse;
-  /* border: 2px solid black; */
+  margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 .about h1 {
   text-align: right;
+  letter-spacing: 2px;
 }
 
 .about p {
@@ -58,13 +59,26 @@
   display: flex;
   color: #FFFFFF;
   background-image: url(../img/mission.png);
-  background-size: cover;
+  /* Parallax  */
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  padding-left: 10px;
   /* border: 2px solid black; */
 }
 
 .mission p {
   margin-right: 40%;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.mission h1 {
+  text-align: left;
+  letter-spacing: 2px;
 }
 
 .contact {
@@ -76,11 +90,22 @@
 
 .contact h1 {
   text-align: right;
+  letter-spacing: 2px;
 }
 
 .contact p {
   text-align: right;
-  margin-left: 40%;
+  margin-left: 300px;
+}
+
+.contact a:hover{
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact a {
+  color: pink;
 }
 
 .item {
@@ -92,21 +117,36 @@
 
 .social {
   margin-top: 80px;
+  padding-bottom: 3%;
+  /* border-bottom: 1px solid gray; */
 }
 
 .social img {
   width: 80px;
   height: 80px;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
   border-radius: 70%;
   padding: 10px;
+}
+
+.lineBreaker img {
+  height: 200px;
+  width: 500px;
+
 }
 
 /* collapsible start -----------> */
 
 .questions {
-  margin-top: 100px;
+  margin-top: 0%;
   margin-bottom: 100px;
+}
+
+
+
+#FAQ h1{
+  letter-spacing: 3px;
+  text-align: center;
 }
 
 .collapsible {
@@ -145,6 +185,7 @@
   overflow: hidden;
   transition: max-height 0.1s ease-out;
   background-color: #f1f1f1;
+  padding-top: 5px;
 }
 
 .jumbotron h4 {
@@ -152,15 +193,13 @@
 
 }
 
-#FAQ {
-  padding: 10px;
-}
-
 .advocate img {
-  width: 100px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   margin-bottom: 10%;
   border-radius: 70%;
-  border: 2px solid black;
-  padding: 10px;
+  border: 1.3px solid black;
+  padding: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
