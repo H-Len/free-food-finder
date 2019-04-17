@@ -160,7 +160,7 @@
 }
 
 .active, .collapsible:hover {
-  color: yellow;
+  color: #ffd454;
 }
 
 .collapsible:after {
