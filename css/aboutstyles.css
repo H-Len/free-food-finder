@@ -2,7 +2,7 @@
 /* nav bar css -----------> */
 #indexNav {
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: #e4c4ff;
   position: fixed;
   top: 0;
   width: 100%;
@@ -202,4 +202,34 @@
   padding: 5px;
   margin-left: 40px;
   margin-right: 40px;
+}
+
+
+/*Header logo STYLING*/
+@font-face {
+  font-family: quirkyRobot;
+  src: url(../img/quirkyRobot.ttf);
+}
+
+#blackLine {
+  border-bottom: 20px solid black;
+}
+
+#header {
+  margin-top: 100px;
+}
+
+#header h1{
+  margin-left: 20px;
+  font-family: quirkyRobot;
+  font-size: 100px;
+  float: right;
+  padding-top: 8%;
+}
+
+#headerLogo {
+  float: left;
+  height: 275px;
+  width: 400px;
+  margin-bottom: 50px;
 }

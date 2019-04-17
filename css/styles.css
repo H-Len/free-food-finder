@@ -198,10 +198,10 @@
 
 /*CSS STYLING FOR searchByLocation.html*/
 #map {
-  height: 400px;
+  height: 500px;
   width: 100%;
   align-items: center;
-  border: 3px dashed black;
+  border: 3px solid black;
   padding: 20px;
   margin: 20px;
 }
@@ -212,6 +212,8 @@
   display: none;
   border: 2px solid black;
   font-family: serif;
+  background-color: rgb(255,255,255, 0.7);
+
 }
 
 #locationInfoDisplay h1 {
@@ -220,17 +222,47 @@
   font-weight: 600;
 }
 
-#mapBody h1 {
-  font-size: 40px;
-  text-align: center;
-  font-family: serif;
+#hiddenInfo {
+  display: none;
 }
+
+.intro {
+  display: flex;
+  color: black;
+  background-image: url(../img/wheatBackground.png);
+  /* Parallax  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.infoDisplay {
+  display: flex;
+  color: black;
+  background-image: url(../img/wheatBackground.png);
+  /* Parallax  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px;
+}
+
 /*Header logo STYLING*/
 @font-face {
   font-family: quirkyRobot;
   src: url(../img/quirkyRobot.ttf);
 }
 
+#blackLine {
+  border-bottom: 20px solid black;
+}
 
 #header {
   margin-top: 100px;
@@ -248,5 +280,5 @@
   float: left;
   height: 275px;
   width: 400px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
