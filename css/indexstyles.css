@@ -41,12 +41,49 @@ body {
 }
 
 /* nav bar css end ---------> */
+/* styling for logo & header  */
 
-#welcome {
+@font-face {
+  font-family: quirkyRobot;
+  src: url(img/quirkyRobot.ttf);
+
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  background-color: #a8adac;
+  }
+
+#mainHeader {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: #a8adac;
+  font-size: 200px;
+  font-family: quirkyRobot;
+  padding-top: 20px;
+}
+
+  /* logo & header styling end */
+  /* welcome blurb styling */
+
+#opening {
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 15px 15px 15px;
+  border: 2px solid black;
+
+}
+
+  /* welcome blurb styling end */
+
+/* #welcome {
   padding: 3px;
   margin-top: 10%;
   border: 2px solid black;
-}
+} */
 
 .jumbotron h1 {
   text-align: center;
