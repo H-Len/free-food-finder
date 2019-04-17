@@ -1,12 +1,13 @@
 $(document).ready(function(){
+
   var today = new Date();
-  var dd = String(today.getDate()).padStart(2, '0');
-  var mm = String(today.getMonth() + 1).padStart(2, '0');
-  //January is "0"!
 
-  var yyyy = today.getFullYear();
+  var day = String(today.getDate()).padStart(2, '0');
+  var month = String(today.getMonth() + 1).padStart(2, '0');
 
-  today = mm + '/' + dd + '/' + yyyy;
-  $("#todaysdate").text(today);
+  var year = today.getFullYear();
+
+  displayToday = month + '/' + day + '/' + year;
+  $("#todaysdate").text(displayToday);
 
 });
