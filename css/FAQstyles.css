@@ -37,8 +37,9 @@
 
 /* collapsible start -----------> */
 
-.FAQset {
+.questions {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .collapsible {
@@ -53,9 +54,9 @@
   font-size: 15px;
 }
 
-/* .active, .collapsible:hover {
-  background-color: #555;
-} */
+.active, .collapsible:hover {
+  color: lime;
+}
 
 .collapsible:after {
   content: '\002B';
