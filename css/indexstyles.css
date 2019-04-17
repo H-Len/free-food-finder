@@ -3,7 +3,7 @@
 } */
 
 body {
-  background-color: #afaea8;
+  background-color: #FFFFFF;
 }
 
 /* nav bar css -----------> */
@@ -45,6 +45,7 @@ body {
 #welcome {
   padding: 3px;
   margin-top: 10%;
+  border: 2px solid black;
 }
 
 .jumbotron h1 {
@@ -64,6 +65,7 @@ body {
   margin-bottom: -30%;
   padding: 3px;
   margin-top: 10%;
+  border: 2px solid black;
 }
 
 #date h2 {
