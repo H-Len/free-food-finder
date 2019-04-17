@@ -59,6 +59,10 @@ body {
 }
 
 /* styling for calendar */
+body {
+  background-color: #ada16d;
+}
+
 .explanation {
   display: flex;
   align-items: center;
@@ -68,33 +72,36 @@ body {
 }
 
 .explanation1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 4px solid lightgray;
   width: 240px;
-  height: 200px;
+  height: 240px;
   border-radius: 50%;
-  padding: 10px;
-  padding-top: 30px;
-  margin-right: 10px;
+  padding: 20px;
   text-align: center;
   background-color: lightgray;
   font-size: 14px;
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
+
 .explanation1:hover {
   transform: scale(1.2);
   font-weight: bold;
 }
 
 .explanation2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
   border: 4px solid lightgray;
   width: 240px;
-  height: 200px;
+  height: 240px;
   border-radius: 50%;
-  padding: 10px;
-  padding-top: 30px;
-  margin-right: 10px;
-  text-align: center;
   background-color: lightgray;
   font-size: 14px;
   line-height: 30px;
@@ -106,13 +113,14 @@ body {
 }
 
 .explantion3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   border: 4px solid lightgray;
   width: 240px;
-  height: 200px;
+  height: 240px;
   border-radius: 50%;
-  padding: 10px;
-  padding-top: 30px;
-  margin-right: 10px;
   text-align: center;
   background-color: lightgray;
   font-size: 14px;
@@ -125,13 +133,14 @@ body {
 }
 
 .explantion4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 4px solid lightgray;
   width: 240px;
-  height: 200px;
+  height: 240px;
   border-radius: 50%;
-  padding: 10px;
-  padding-top: 30px;
-  margin-right: 10px;
+  padding: 20px;
   text-align: center;
   background-color: lightgray;
   font-size: 14px;
@@ -189,6 +198,11 @@ body {
   font-size: 18px;
 }
 
+#hyper a {
+  color: #175459;
+  text-decoration: none;
+}
+
 #locationInfoDisplay {
   margin-top: 20px;
   padding: 10px;
@@ -199,4 +213,3 @@ body {
 #locationInfoDisplay h1 {
   border-bottom: 2px solid black;
 }
-
