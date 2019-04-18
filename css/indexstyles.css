@@ -206,7 +206,7 @@ body {
 }
 
 #col3 {
-  padding-left: -30px;
+  padding-left: 27px;
   padding-right: 155px;
 }
 
@@ -248,13 +248,20 @@ body {
 }
 
 a:hover {
-  color: #000000;
   font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #FFFFFF;
 }
 
 a {
+  color: #FFFFFF;
   text-decoration: none;
 }
+
+
 /* End flexbox table ---------> */
 
 /* begin styling for seasonalDates */

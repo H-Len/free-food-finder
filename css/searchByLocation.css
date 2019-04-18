@@ -1,5 +1,6 @@
 /* nav bar css ----------->  */
 
+
 #indexNav {
   overflow: hidden;
   background-color: #CDAF50;
@@ -55,7 +56,7 @@
   font-family: quirkyRobot;
   font-size: 100px;
   float: right;
-  padding-top: 8%;
+  padding-top: 15%;
 }
 
 #headerLogo {
@@ -71,8 +72,12 @@
   width: 100%;
   align-items: center;
   border: 3px solid black;
-  padding: 20px;
-  margin: 20px;
+  margin-top: 10px;
+}
+
+#mapCSS {
+  display: flex;
+  justify-content: center;
 }
 
 #locationInfoDisplay {
@@ -111,11 +116,17 @@
   /* margin-bottom: 50px; */
 }
 
+.item {
+  align-items: center;
+}
+
 .item h1 {
   letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 10px;
 }
+
 
 .infoDisplay {
   display: flex;
@@ -139,4 +150,18 @@
   padding: 5px;
   margin-left: 40px;
   margin-right: 40px;
+}
+
+#locationInfoDisplay a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #4d8c56;
+}
+
+#locationInfoDisplay a {
+  color: #4d8c56;
+  text-decoration: none;
 }
