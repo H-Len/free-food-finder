@@ -17,7 +17,9 @@ _We are not the only food locator out there, but we are proud of the dynamic way
 
 ## Specs - "Landing Page" - index.html
 
-<img src="img/homePage.png" alt="image of homePage">
+<p  align="center">
+  .png" alt="image of homePage" height="80%" width="80%">
+</p>
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
@@ -25,9 +27,11 @@ _We are not the only food locator out there, but we are proud of the dynamic way
 | Dynamic display of daily events, a welcome note, and in-season foods on landing page| Mouse hover over section of the infographic table | the selected section will grow to show contents, while the two other sections will shrink |
 | Display the season of 8 different vegetables and fruit | mouse hover over picture | the picture will flip and display the name of the food and its season |
 
-## Specs - "About/FAQ" - about-FAQ.html
+## Specs - "About Us" - about-faq.html
 
-<img src="img/aboutFAQpage.png">
+<p  align="center">
+  <img src="img/aboutFAQpage.png" height="80%" width="80%">
+</p>
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
@@ -37,7 +41,9 @@ _We are not the only food locator out there, but we are proud of the dynamic way
 
 ## Specs - "Resources" - resources.html
 
-<img src="img/resourcesPage.png">
+<p  align="center">
+  <img src="img/resourcesPage.png" height="80%" width="80%">
+</p>
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
@@ -46,7 +52,9 @@ _We are not the only food locator out there, but we are proud of the dynamic way
 
 ## Specs - "Search by location" - searchByLocation.html
 
-<img src="img/mapPage.png">
+<p  align="center">
+  <img src="img/mapPage.png" height="80%" width="80%">
+</p>
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
@@ -55,7 +63,9 @@ _We are not the only food locator out there, but we are proud of the dynamic way
 
 ## Specs - "Search by Date" - calendar.html
 
-<img src="img/calendarPage.png">
+<p  align="center">
+  <img src="img/calendarPage.png" height="80%" width="80%">
+</p>
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
