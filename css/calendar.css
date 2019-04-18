@@ -7,13 +7,15 @@
 } */
 
 /* nav bar css -----------> */
+
 #indexNav {
   overflow: hidden;
-  background-color: #e4c4ff;
+  background-color: #CDAF50;
+  text-align: center;
   position: fixed;
   top: 0;
   width: 100%;
-  margin: 0 0 0 0;
+  margin: 0 0 0 0
   padding-bottom: 2px;
   padding-top: 2px;
   margin-bottom: 2px;
@@ -21,11 +23,11 @@
 }
 
 #indexNav a {
-  text-align: left;
-  display: block;
   text-align: center;
+  display: block;
   padding: 14px 16px;
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 .isDisabled {
