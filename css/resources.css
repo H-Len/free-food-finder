@@ -72,14 +72,14 @@ h4 {
 
 
 .item {
-  height: 300px;
+  height: 350px;
   margin: 10px;
 }
 
 .minors {
   display: flex;
   flex-direction: row-reverse;
-  border: 2px solid black;
+  border: 2px solid white;
   margin-top: 50px;
   /* margin-bottom: 10px; */
   padding: 10px;
@@ -95,14 +95,17 @@ h4 {
   background-color: rgb(255, 255, 255, 0.8);
   padding: 60px;
   border-radius: 100%;
-  margin-top: -5px;
+  margin-top: -13px;
   font-size: 20px;
+  width: 380px;
+  height: 380px;
 
   /* border-radius: 50%; */
 }
 
 .fruits {
   display: flex;
+  align-items: center;
   /* border: 2px solid black; */
   margin-top: 50px;
   /* margin-bottom: 10px; */
@@ -115,11 +118,15 @@ h4 {
 .fruits p {
   text-align: center;
   margin: 30px;
-  border: 5px solid black;
+  /* margin-bottom: 20px; */
+  border: 5px solid #a8adac;
   padding: 70px;
   border-radius: 100%;
-  margin-top: -15px;
+  margin-top: -20px;
   font-size: 20px;
+  width: 390px;
+  height: 390px;
+  background-color: #a8adac;
 
   /* border-radius: 50%; */
 }
@@ -128,7 +135,7 @@ h4 {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 50px;
-  border: 2px solid black;
+  border: 2px solid white;
   /* margin-bottom: 10px; */
   padding: 10px;
   background-image: url("http://www.rosywoodmahemuestate.com/wp-content/uploads/pexels-photo-176169-2000x1152.jpeg");
@@ -143,15 +150,18 @@ h4 {
   background-color: rgb(255, 255, 255, 0.7);
   padding: 70px;
   border-radius: 100%;
-  margin-top: -5px;
+  margin-top: -15px;
   font-size: 20px;
+  width: 380px;
+  height: 380px;
   /* border-radius: 50%; */
 }
 
-.county {
+.county{
   display: flex;
+  align-items: center;
   /* border: 2px solid black; */
-  margin-top: 50px;
+  margin-top: 100px;
   /* margin-bottom: 10px; */
   padding: 10px;
   background-attachment: fixed;
@@ -162,11 +172,15 @@ h4 {
 .county p {
   text-align: center;
   margin: 30px;
-  border: 5px solid black;
+  /* margin-bottom: 20px; */
+  border: 5px solid #a8adac;
   padding: 70px;
   border-radius: 100%;
-  margin-top: -5px;
+  margin-top: -50px;
   font-size: 20px;
+  width: 390px;
+  height: 390px;
+  background-color: #a8adac;
 
   /* border-radius: 50%; */
 }
@@ -174,7 +188,7 @@ h4 {
 .travel {
   display: flex;
   flex-direction: row-reverse;
-  border: 2px solid black;
+  border: 2px solid white;
   margin-top: 50px;
   margin-bottom: 50px;
   /* margin: 10px; */
@@ -191,8 +205,10 @@ h4 {
   background-color: rgb(255, 255, 255, 0.7);
   padding: 70px;
   border-radius: 100%;
-  margin-top: -5px;
+  margin-top: -15px;
   font-size: 20px;
+  width: 380px;
+  height: 380px;
 
   /* border-radius: 50%; */
 }
