@@ -42,6 +42,7 @@
   padding-top: 2px;
   margin-bottom: 2px;
   opacity: 0.8;
+  z-index: 50;
 }
 
 #indexNav a {

@@ -1,10 +1,8 @@
 @font-face {
   font-family: quirkyRobot;
-  src: url(img/quirkyRobot.ttf);
+  src: url(../img/quirkyRobot.ttf);
 }
-/* * {
-  border:1px dashed black;
-} */
+
 
 body {
   background-color: #FFFFFF;
@@ -19,11 +17,12 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  margin: 0 0 0 0
+  margin: 0 0 0 0;
   padding-bottom: 2px;
   padding-top: 2px;
   margin-bottom: 2px;
   opacity: 0.8;
+  z-index: 50;
 }
 
 #indexNav a {
@@ -59,9 +58,6 @@ body {
   }
 
 #mainHeader {
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: end; */
   text-align: center;
   background-color: #a8adac;
   font-size: 100px;
@@ -71,29 +67,6 @@ body {
   color: #232625;
 }
 
-  /* end logo & header styling */
-  /* welcome blurb styling */
-/*
-h1 {
-  text-align: center;
-  padding-top: 40px;
-}
-
-
-#welcome p {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-
-
-  /* welcome blurb styling end */
-
-/* #welcome {
-  padding: 3px;
-  margin-top: 10%;
-  border: 2px solid black;
-} */
 
 .jumbotron h1 {
   text-align: center;
@@ -124,13 +97,6 @@ h1 {
 }
 
 /* Flexbox for index start -------> */
-.card {
-  background: #CDAF50;
-  color: #000000;
-  position: relative;
-  overflow: hidden;
-  
-}
 
 .content {
   display: flex;
@@ -160,13 +126,14 @@ h1 {
 }
 
 .col:first-child {
-  margin-left: -100px;
+  margin-left: -120px;
   /* padding-left: 2px; */
 }
 
 .col:middle-child {
   margin: 10px;
   padding: 10%;
+
 }
 
 .col:last-child {
@@ -216,12 +183,17 @@ h1 {
 }
 
 #col1 h1 {
-  padding-left: 8px;
+  padding-top: 30px;
+  padding-left: -100px;
 }
 
 #col2 p {
   padding-left: 50px;
   padding-right: 25px;
+}
+
+#col2 h1 {
+  padding-top: 30px;
 }
 
 #col3 {
@@ -235,6 +207,7 @@ h1 {
 }
 
 #col3 h1 {
+  padding-top: 30px;
   text-align: right;
   padding-left: 20px;
 }
@@ -252,7 +225,6 @@ h1 {
   font-size: 40px;
   letter-spacing: 3px;
   padding-left: -1px;
-  font-style: quirkyRobot;
 }
 
 .content p {
@@ -282,6 +254,11 @@ a {
   font-size: 24px;
 }
 
+#seasonal h1 {
+  text-align: center;
+  margin-top: 100px;
+  letter-spacing: 3px;
+}
 .seasonalDatesOne {
   display: flex;
   justify-content: center;
