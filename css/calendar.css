@@ -65,7 +65,7 @@
 .explanation {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-family: sans-serif;
   justify-content: space-evenly;
 }
@@ -74,16 +74,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid black;
-  width: 240px;
-  height: 240px;
+  border: 2px solid white;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   padding: 30px;
+  padding-top: 70px;
   text-align: center;
   color: black;
   background-image: url(../img/nature8.jpg);
   /* background-color: lightgray; */
-  font-size: 14px;
+  font-size: 16px;
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
@@ -99,14 +100,14 @@
   align-items: center;
   text-align: center;
   padding: 30px;
-  border: 4px solid black;
-  width: 240px;
-  height: 240px;
+  border: 4px solid white;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   color: black;
   background-image: url(../img/nature9.jpg);
   /* background-color: lightgray; */
-  font-size: 14px;
+  font-size: 16px;
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
@@ -120,15 +121,16 @@
   justify-content: center;
   align-items: center;
   padding: 30px;
-  border: 4px solid black;
-  width: 240px;
-  height: 240px;
+  padding-top: 60px;
+  border: 4px solid white;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   text-align: center;
   color: black;
   background-image: url(../img/nature10.png);
-  /* background-color: lightgray; */
-  font-size: 14px;
+  background-color: lightgray;
+  font-size: 16px;
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
@@ -141,16 +143,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid black;
-  width: 240px;
-  height: 240px;
+  border: 4px solid white;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   padding: 30px;
+  padding-top: 60px;
   text-align: center;
   color: black;
   background-image: url(../img/nature11.jpg);
-  /* background-color: lightgray; */
-  font-size: 14px;
+  background-color: lightgray;
+  font-size: 16px;
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
@@ -165,26 +168,6 @@
   font-family: sans-serif;
   padding: 5px;
   justify-content: center;
-}
-
-#purple {
-  color: #7310b2;
-}
-
-#green {
-  color: #70cc20;
-}
-
-#teal {
-  color: #5baf85;
-}
-
-#yellow {
-  color: yellow;
-}
-
-#orange {
-  color: orange;
 }
 
 /* .card-title {
@@ -255,7 +238,7 @@
   font-family: quirkyRobot;
   font-size: 100px;
   float: right;
-  padding-top: 8%;
+  padding-top: 15%;
 }
 
 #headerLogo {
