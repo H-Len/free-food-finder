@@ -63,10 +63,10 @@
 #indexNav a:hover {
   color: #000000;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* nav bar css end ---------> */
-
 /* beginning circles */
 .infoBubbles {
   margin-top: 40px;
@@ -231,7 +231,7 @@
   color: orange;
   margin-right: 5px;
   border-radius: 15%;
-} 
+}
 
 #calendar {
   display: flex;
