@@ -128,7 +128,9 @@ h1 {
   color: #000000;
   position: relative;
   overflow: hidden;
-  
+  padding: -40px;
+  /* border: none; */
+
 }
 
 .content {

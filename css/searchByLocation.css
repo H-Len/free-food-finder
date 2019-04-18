@@ -1,4 +1,4 @@
-/* nav bar css -----------> */
+/* nav bar css ----------->  */
 
 #indexNav {
   overflow: hidden;
@@ -80,14 +80,12 @@
   padding: 10px;
   display: none;
   border: 2px solid black;
-  font-family: serif;
   background-color: rgb(255,255,255, 0.7);
 
 }
 
 #locationInfoDisplay h1 {
   border-bottom: 2px solid black;
-  font-family: serif;
   font-weight: 600;
 }
 
@@ -104,11 +102,19 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 25px;
+  padding-left: 25px; */
   margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+}
+
+.item h1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .infoDisplay {
