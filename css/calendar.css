@@ -175,6 +175,11 @@
 
 .legendTitle {
   text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .legend {
@@ -191,7 +196,7 @@
   border: 4px solid #7310b2;
   color: #7310b2;
   margin-right: 5px;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 #green {
@@ -199,7 +204,7 @@
   border: 4px solid #A4CF7D;
   color: #A4CF7D;
   margin-right: 5px;
-  border-radius: 50%;
+  border-radius: 15%;
   line-height: 3rem;
 }
 
@@ -208,7 +213,7 @@
   border: 4px solid #5FC4AF;
   color: #5FC4AF;
   margin-right: 5px;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 #yellow {
@@ -216,7 +221,7 @@
   border: 4px solid yellow;
   color: yellow;
   margin-right: 5px;
-  border-radius: 50%;
+  border-radius: 15%;
   line-height: 3rem;
 }
 
@@ -225,8 +230,8 @@
   border: 4px solid orange;
   color: orange;
   margin-right: 5px;
-  border-radius: 50%;
-}
+  border-radius: 15%;
+} 
 
 #calendar {
   display: flex;
@@ -243,18 +248,4 @@
   padding: 5px;
   margin-left: 40px;
   margin-right: 40px;
-}
-
-a:hover {
-  font-weight: bold;
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #FFFFFF;
-}
-
-a {
-  color: #FFFFFF;
-  text-decoration: none;
 }
