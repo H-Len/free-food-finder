@@ -1,3 +1,31 @@
+/*Header logo STYLING*/
+@font-face {
+  font-family: quirkyRobot;
+  src: url(../img/quirkyRobot.ttf);
+}
+
+#blackLine {
+  border-bottom: 20px solid black;
+}
+
+#header {
+  margin-top: 100px;
+}
+
+#header h1{
+  margin-left: 20px;
+  font-family: quirkyRobot;
+  font-size: 100px;
+  float: right;
+  padding-top: 15%;
+}
+
+#headerLogo {
+  float: left;
+  height: 275px;
+  width: 400px;
+  margin-bottom: 50px;
+}
 
 
 /* nav bar css -----------> */
@@ -204,38 +232,6 @@
   justify-content: center;
 }
 
-/* .card-title {
-  text-align: center;
-  border: 2px solid lightgray;
-  padding: 5px;
-  background-color: lightgray;
-  border-radius: 8px;
-}
-
-.card {
-  background-color: gray;
-} */
-
-/* #mapLink {
-  background-color: gray;
-  padding-right: 10px;
-  font-size: 18px;
-}
-
-#hyper a {
-  color: #175459;
-  text-decoration: none;
-} */
-
-/* #legendBoxTitle {
-  background-color: grey;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 30px;
-  border: 2px solid black;
-} */
-
-
 .advocate img {
   width: 80px;
   height: 80px;
@@ -246,33 +242,4 @@
   padding: 5px;
   margin-left: 40px;
   margin-right: 40px;
-}
-
-/*Header logo STYLING*/
-@font-face {
-  font-family: quirkyRobot;
-  src: url(../img/quirkyRobot.ttf);
-}
-
-#blackLine {
-  border-bottom: 20px solid black;
-}
-
-#header {
-  margin-top: 100px;
-}
-
-#header h1{
-  margin-left: 20px;
-  font-family: quirkyRobot;
-  font-size: 100px;
-  float: right;
-  padding-top: 15%;
-}
-
-#headerLogo {
-  float: left;
-  height: 275px;
-  width: 400px;
-  margin-bottom: 50px;
 }
