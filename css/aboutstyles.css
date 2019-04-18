@@ -4,10 +4,7 @@
 #indexNav {
   overflow: hidden;
   background-color: #CDAF50;
-<<<<<<< HEAD
-=======
   text-align: center;
->>>>>>> 56451230e81711121fc63637070771434a51eb56
   position: fixed;
   top: 0;
   width: 100%;
@@ -137,7 +134,7 @@ a:hover{
 }
 
 /* collapsible start -----------> */
-
+/*
 .questions {
   margin-top: 0%;
   margin-bottom: 100px;
@@ -178,16 +175,47 @@ a:hover{
 
 .active:after {
   content: "\2212";
-}
+} */
 
-.content {
+/* .content {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.1s ease-out;
   background-color: #f1f1f1;
   padding-top: 5px;
+} */
+
+/* collapsible end -----> */
+
+.questions {
+  margin-top: 0%;
+  margin-bottom: 100px;
 }
+
+
+
+#FAQ h1{
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+/* flip start ------------------> */
+
+.card {
+  border: 0px;
+  margin-bottom: 5px;
+}
+
+.front h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+}
+
+
+/* flip end ------------------> */
 
 .jumbotron h4 {
   text-align: center;
