@@ -1,6 +1,6 @@
 # _Free Food Finder_
 
-#### _Intro to Programming, Week 5 Group Project, 04.12.2019_
+#### _Intro to Programming, Week 5 Group Project, 04.18.2019_
 
 #### By _Brooke Kullberg, Megan Schulte, Ashley J. Ancheta, and Hannah Melendy_
 
@@ -24,25 +24,34 @@ _We are not the only food locator out there, but we are proud of the dynamic way
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
 | Navigate to FFF-PDX website pages | click an option from the menu bar | The click will take you to the selected page |
-| Dynamic display of about-us, daily events, and in-season foods on landing page| Mouse hover over section of the infographic table | the selected section will grow to show contents, while the two other sections will shrink |
+| Dynamic display of daily events, a welcome note, and in-season foods on landing page| Mouse hover over section of the infographic table | the selected section will grow to show contents, while the two other sections will shrink |
+| Display the season of 8 different vegetables and fruit | mouse hover over picture | the picture will flip and display the name of the food and its season |
 
 ## Specs - "About Us" - about-faq.html
+
 <p  align="center">
   <img src="img/aboutFAQpage.png" height="80%" width="80%">
 </p>
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
+| Display About, Mission and Contact Us information | Scroll with mouse | paralax scrolling of background image |
+| Connect users to social media | Click a social media icon | Link takes user to the FFF-PDX account on the selected social media site |
+| Display FAQ | Mouse hover over a question | The answer slides in place of the original question, in the form of bullet points |
 
 ## Specs - "Resources" - resources.html
+
 <p  align="center">
   <img src="img/resourcesPage.png" height="80%" width="80%">
 </p>
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
+| Display community resources for free food opportunities | Scroll through page | Paralax scrolling display of background images |
+| Provide links to outside websites | User clicks link in info-bubble | the link navigates away from FFF-PDX, taking the user to the new site |
 
 ## Specs - "Search by location" - searchByLocation.html
+
 <p  align="center">
   <img src="img/mapPage.png" height="80%" width="80%">
 </p>
@@ -60,7 +69,9 @@ _We are not the only food locator out there, but we are proud of the dynamic way
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
+| Display how-to info circles to teach user how to use page | mouse hover over circle | the circle and font size grow |
 | Search for food by calendar date | Click a title within a date box | An info box will pop up with detailed information about the location, including hours, location, offerings |
+| Navigate out of calendar date info box | Click the "x" to close the info box | the info box will close, and let the user make a new selection |
 
 ## Setup/Installation Requirements - Option 1
 
