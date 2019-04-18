@@ -11,3 +11,12 @@ $(document).ready(function(){
   $("#todaysdate").text(displayToday);
 
 });
+
+$(document).ready(function(){
+  $(".card").flip({
+    axis: 'y',
+    trigger: 'hover',
+    speed: 	"10"
+
+  });
+});
