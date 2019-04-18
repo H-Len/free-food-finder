@@ -1,10 +1,32 @@
-/* * {
-  border:1px dashed black;
-} */
+/*Header logo STYLING*/
+@font-face {
+  font-family: quirkyRobot;
+  src: url(../img/quirkyRobot.ttf);
+}
 
-/* body {
-  background-color: #afaea8;
-} */
+#blackLine {
+  border-bottom: 20px solid black;
+}
+
+#header {
+  margin-top: 100px;
+}
+
+#header h1{
+  margin-left: 20px;
+  font-family: quirkyRobot;
+  font-size: 100px;
+  float: right;
+  padding-top: 15%;
+}
+
+#headerLogo {
+  float: left;
+  height: 275px;
+  width: 400px;
+  margin-bottom: 50px;
+}
+
 
 /* nav bar css -----------> */
 
@@ -20,6 +42,7 @@
   padding-top: 2px;
   margin-bottom: 2px;
   opacity: 0.8;
+  z-index: 50;
 }
 
 #indexNav a {
@@ -44,20 +67,7 @@
 
 /* nav bar css end ---------> */
 
-/* .box.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #a38e1a;
-  font-size: 20px;
-  padding: 10px;
-} */
-
-/* styling for calendar */
-/* body {
-  background-color: #ada16d;
-} */
-
+/* beginning circles */
 .infoBubbles {
   margin-top: 40px;
 }
@@ -65,7 +75,7 @@
 .explanation {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-family: sans-serif;
   justify-content: space-evenly;
 }
@@ -74,16 +84,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid black;
-  width: 240px;
-  height: 240px;
+  border: 2px solid white;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   padding: 30px;
+  padding-top: 70px;
   text-align: center;
   color: black;
   background-image: url(../img/nature8.jpg);
-  /* background-color: lightgray; */
-  font-size: 14px;
+  background-color: lightgray;
+  font-size: 16px;
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
@@ -99,14 +110,14 @@
   align-items: center;
   text-align: center;
   padding: 30px;
-  border: 4px solid black;
-  width: 240px;
-  height: 240px;
+  border: 4px solid white;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   color: black;
   background-image: url(../img/nature9.jpg);
-  /* background-color: lightgray; */
-  font-size: 14px;
+  background-color: lightgray;
+  font-size: 16px;
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
@@ -120,15 +131,16 @@
   justify-content: center;
   align-items: center;
   padding: 30px;
-  border: 4px solid black;
-  width: 240px;
-  height: 240px;
+  padding-top: 60px;
+  border: 4px solid white;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   text-align: center;
   color: black;
   background-image: url(../img/nature10.png);
-  /* background-color: lightgray; */
-  font-size: 14px;
+  background-color: lightgray;
+  font-size: 16px;
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
@@ -141,16 +153,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid black;
-  width: 240px;
-  height: 240px;
+  border: 4px solid white;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   padding: 30px;
+  padding-top: 60px;
   text-align: center;
   color: black;
   background-image: url(../img/nature11.jpg);
-  /* background-color: lightgray; */
-  font-size: 14px;
+  background-color: lightgray;
+  font-size: 16px;
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
@@ -158,70 +171,66 @@
   transform: scale(1.2);
   font-weight: bold;
 }
+/* end circles styling */
 
-.box.flex {
+.legendTitle {
+  text-align: center;
+}
+
+.legend {
+  list-style-type: none;
+}
+
+#legendBox {
   display: flex;
-  font-size: 18px;
-  font-family: sans-serif;
-  padding: 5px;
   justify-content: center;
 }
 
 #purple {
+  background-color: #7310b2;
+  border: 4px solid #7310b2;
   color: #7310b2;
+  margin-right: 5px;
+  border-radius: 50%;
 }
 
 #green {
-  color: #70cc20;
+  background-color: #A4CF7D;
+  border: 4px solid #A4CF7D;
+  color: #A4CF7D;
+  margin-right: 5px;
+  border-radius: 50%;
+  line-height: 3rem;
 }
 
 #teal {
-  color: #5baf85;
+  background-color: #5FC4AF;
+  border: 4px solid #5FC4AF;
+  color: #5FC4AF;
+  margin-right: 5px;
+  border-radius: 50%;
 }
 
 #yellow {
+  background-color: yellow;
+  border: 4px solid yellow;
   color: yellow;
+  margin-right: 5px;
+  border-radius: 50%;
+  line-height: 3rem;
 }
 
 #orange {
+  background-color: orange;
+  border: 4px solid orange;
   color: orange;
+  margin-right: 5px;
+  border-radius: 50%;
 }
 
-/* .card-title {
-  text-align: center;
-  border: 2px solid lightgray;
-  padding: 5px;
-  background-color: lightgray;
-  border-radius: 8px;
-}
-
-.card {
-  background-color: gray;
-} */
-
-/* #mapLink {
-  background-color: gray;
-  padding-right: 10px;
-  font-size: 18px;
-}
-
-#hyper a {
-  color: #175459;
-  text-decoration: none;
-} */
-
-#legendBoxTitle {
-  background-color: grey;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 30px;
-  border: 2px solid black;
-}
-
-#legendBox {
-  background-color: grey;
-  margin-left: 20%;
-  margin-right: 20%;
+#calendar {
+  display: flex;
+  justify-content: center;
 }
 
 .advocate img {
@@ -234,33 +243,4 @@
   padding: 5px;
   margin-left: 40px;
   margin-right: 40px;
-}
-
-/*Header logo STYLING*/
-@font-face {
-  font-family: quirkyRobot;
-  src: url(../img/quirkyRobot.ttf);
-}
-
-#blackLine {
-  border-bottom: 20px solid black;
-}
-
-#header {
-  margin-top: 100px;
-}
-
-#header h1{
-  margin-left: 20px;
-  font-family: quirkyRobot;
-  font-size: 100px;
-  float: right;
-  padding-top: 8%;
-}
-
-#headerLogo {
-  float: left;
-  height: 275px;
-  width: 400px;
-  margin-bottom: 50px;
 }

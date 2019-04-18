@@ -1,10 +1,8 @@
 @font-face {
   font-family: quirkyRobot;
-  src: url(img/quirkyRobot.ttf);
+  src: url(../img/quirkyRobot.ttf);
 }
-/* * {
-  border:1px dashed black;
-} */
+
 
 body {
   background-color: #FFFFFF;
@@ -19,11 +17,12 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  margin: 0 0 0 0
+  margin: 0 0 0 0;
   padding-bottom: 2px;
   padding-top: 2px;
   margin-bottom: 2px;
   opacity: 0.8;
+  z-index: 50;
 }
 
 #indexNav a {
@@ -59,40 +58,15 @@ body {
   }
 
 #mainHeader {
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: end; */
   text-align: center;
   background-color: #a8adac;
   font-size: 100px;
   font-weight: lighter;
-  /* font-family: quirkyRobot; */
+  font-family: quirkyRobot;
   padding-top: 20px;
   color: #232625;
 }
 
-  /* logo & header styling end */
-  /* welcome blurb styling */
-/*
-h1 {
-  text-align: center;
-  padding-top: 40px;
-}
-
-#welcome p {
-  text-align: center;
-  padding-bottom: 30px;
-} */
-
-
-
-  /* welcome blurb styling end */
-
-/* #welcome {
-  padding: 3px;
-  margin-top: 10%;
-  border: 2px solid black;
-} */
 
 .jumbotron h1 {
   text-align: center;
@@ -123,15 +97,14 @@ h1 {
 }
 
 /* Flexbox for index start -------> */
-.card {
+
+/* .card {
   background: #CDAF50;
   color: #000000;
   position: relative;
   overflow: hidden;
   padding: -40px;
-  /* border: none; */
-
-}
+/* border: none; }*/ */
 
 .content {
   display: flex;
@@ -140,7 +113,7 @@ h1 {
   overflow: hidden;
   border: 5px solid black;
   border-radius: 8px;
-  margin-bottom: 10%;
+  margin-bottom: 40px;
 }
 
 .col {
@@ -161,13 +134,14 @@ h1 {
 }
 
 .col:first-child {
-  margin-left: -100px;
+  margin-left: -120px;
   /* padding-left: 2px; */
 }
 
 .col:middle-child {
   margin: 10px;
   padding: 10%;
+
 }
 
 .col:last-child {
@@ -194,15 +168,16 @@ h1 {
   margin: 0;
   padding left: 10px;
   transform: skew(20deg, 0);
+  /* font-size: 40px; */
 }
 
 .col:first-child h1 {
-  margin-left: 40px;
+  /* margin-left: 10px; */
 }
 
 
 #col1 {
-  padding-left: 30px;
+  padding-left: 100px;
   padding-right: 30px;
 }
 
@@ -216,14 +191,17 @@ h1 {
 }
 
 #col1 h1 {
-  padding-left: 8px;
+  padding-top: 30px;
+  padding-left: -100px;
 }
 
-#col2 {
-  text-align: center;
+#col2 p {
   padding-left: 50px;
-  padding-right: 50px;
-  font-size: 20px;
+  padding-right: 25px;
+}
+
+#col2 h1 {
+  padding-top: 30px;
 }
 
 #col3 {
@@ -237,6 +215,7 @@ h1 {
 }
 
 #col3 h1 {
+  padding-top: 30px;
   text-align: right;
   padding-left: 20px;
 }
@@ -246,10 +225,14 @@ h1 {
   line-height: 35px;
 }
 
+/* #col3 p {
+  text-align: center;
+} */
+
 .content h1 {
+  font-size: 40px;
   letter-spacing: 3px;
   padding-left: -1px;
-  font-style: quirkyRobot;
 }
 
 .content p {
@@ -274,32 +257,76 @@ a {
 /* End flexbox table ---------> */
 
 /* begin styling for seasonalDates */
-.seasonalDates {
-  display: flex;
-  justify-content: center;
+#seasonal p {
+  text-align: center;
+  font-size: 24px;
 }
 
-#fig img {
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  margin: 0px 10px 0px 10px;
+#seasonal h1 {
+  text-align: center;
+  margin-top: 100px;
+  letter-spacing: 3px;
 }
-#plums img {
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  margin: 0px 10px 0px 10px;
+.seasonalDatesOne {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
-#blackberries img {
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  margin: 0px 10px 0px 10px;
+
+.seasonalDatesTwo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
-#apples img {
+/* circle flip card */
+.circle-container {
+	position: relative;
+	perspective: 1000;
+	margin: 0 auto;
+}
+.circle-container:hover .circle {
+	transform: rotate3d(45, 45, 0, 180deg);
+}
+.circle-container:hover .outer-ring {
+	transform: rotate3d(45, 0, 0, 180deg);
+}
+.circle-container:hover .outer-outer-ring {
+	transform: rotate3d(0, 45, 0, 180deg);
+}
+.circle-container, .front, .back {
+	width: 250px;
+	height: 250px;
+	background-color: rgba(0,0,0,0);
+}
+.circle, .outer-ring, .outer-outer-ring {
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+.circle {
+	position: relative;
+	width: 250px;
+	height: 250px;
+}
+.front, .back {
+	border-radius: 50%;
+	backface-visibility: hidden;
+	position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.back {
+	transform: rotate3d(45,45,0,180deg);
+	background-color: #a8adac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/** end circle flip card */
+
+.circle-container img {
   border-radius: 50%;
   height: 250px;
   width: 250px;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 10px 10px 10px;
 }
