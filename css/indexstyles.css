@@ -73,7 +73,7 @@ body {
 
   /* logo & header styling end */
   /* welcome blurb styling */
-
+/*
 h1 {
   text-align: center;
   padding-top: 40px;
@@ -82,7 +82,7 @@ h1 {
 #welcome p {
   text-align: center;
   padding-bottom: 30px;
-}
+} */
 
 
 
@@ -123,6 +123,14 @@ h1 {
 }
 
 /* Flexbox for index start -------> */
+.card {
+  background: #CDAF50;
+  color: #000000;
+  position: relative;
+  overflow: hidden;
+  
+}
+
 .content {
   display: flex;
   height: 400px;
@@ -169,7 +177,7 @@ h1 {
   position: absolute;
   height: 100%;
   width: calc(100% + 200px);
-  margin-left: -100px;
+  margin-left: -200px;
   display: block;
   background-attachment: fixed;
   transform: skew(20deg, 0);
@@ -190,30 +198,53 @@ h1 {
   margin-left: 40px;
 }
 
-#col1 {
-  padding-left: 20px;
-}
 
 #col1 {
   padding-left: 30px;
   padding-right: 30px;
-  font-style: normal;
 }
 
-#col1 p{
-  padding-left: 100px;
+#col1 p {
+  padding-left: 110px;
+  font-size: 20px;
+}
+
+#col1 b {
+  color: white;
+}
+
+#col1 h1 {
+  padding-left: 8px;
 }
 
 #col2 {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
 }
 
 #col3 {
- padding-right: 13%;
- padding-left: 3%;
+  padding-left: -30px;
+  padding-right: 155px;
+}
+
+#col3 b {
+  color: white;
+  text-transform: uppercase;
+}
+
+#col3 h1 {
+  text-align: right;
+  padding-left: 20px;
+}
+
+#col3 p {
+  font-size: 20px;
+  line-height: 35px;
 }
 
 .content h1 {
-  font-size: 50px;
   letter-spacing: 3px;
   padding-left: -1px;
   font-style: quirkyRobot;
