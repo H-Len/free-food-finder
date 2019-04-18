@@ -66,12 +66,12 @@ body {
   background-color: #a8adac;
   font-size: 100px;
   font-weight: lighter;
-  /* font-family: quirkyRobot; */
+  font-family: quirkyRobot;
   padding-top: 20px;
   color: #232625;
 }
 
-  /* logo & header styling end */
+  /* end logo & header styling */
   /* welcome blurb styling */
 
 h1 {
@@ -115,7 +115,7 @@ h1 {
   overflow: hidden;
   border: 5px solid black;
   border-radius: 8px;
-  margin-bottom: 10%;
+  margin-bottom: 40px;
 }
 
 .col {
@@ -169,18 +169,15 @@ h1 {
   margin: 0;
   padding left: 10px;
   transform: skew(20deg, 0);
+  /* font-size: 40px; */
 }
 
 .col:first-child h1 {
-  margin-left: 40px;
+  /* margin-left: 10px; */
 }
 
 #col1 {
-  padding-left: 20px;
-}
-
-#col1 {
-  padding-left: 30px;
+  padding-left: 100px;
   padding-right: 30px;
   font-style: normal;
 }
@@ -189,7 +186,9 @@ h1 {
   padding-left: 100px;
 }
 
-#col2 {
+#col2 p {
+  padding-left: 50px;
+  padding-right: 25px;
 }
 
 #col3 {
@@ -197,8 +196,12 @@ h1 {
  padding-left: 3%;
 }
 
+/* #col3 p {
+  text-align: center;
+} */
+
 .content h1 {
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 3px;
   padding-left: -1px;
   font-style: quirkyRobot;
@@ -240,6 +243,7 @@ a {
 .seasonalDatesTwo {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 /* circle flip card */
 .circle-container {
