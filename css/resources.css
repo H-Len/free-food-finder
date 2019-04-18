@@ -92,7 +92,7 @@ h4 {
 .minors p {
   text-align: center;
   margin: 30px;
-  background-color: rgb(128, 128, 128, 0.7);
+  background-color: rgb(255, 255, 255, 0.8);
   padding: 60px;
   border-radius: 100%;
   margin-top: -5px;
@@ -115,7 +115,7 @@ h4 {
 .fruits p {
   text-align: center;
   margin: 30px;
-  background-color: rgb(128, 128, 128, 0.7);
+  border: 5px solid black;
   padding: 70px;
   border-radius: 100%;
   margin-top: -15px;
@@ -140,7 +140,7 @@ h4 {
 .foodBank p {
   text-align: center;
   margin: 30px;
-  background-color: rgb(128, 128, 128, 0.7);
+  background-color: rgb(255, 255, 255, 0.7);
   padding: 70px;
   border-radius: 100%;
   margin-top: -5px;
@@ -162,7 +162,7 @@ h4 {
 .county p {
   text-align: center;
   margin: 30px;
-  background-color: rgb(128, 128, 128, 0.7);
+  border: 5px solid black;
   padding: 70px;
   border-radius: 100%;
   margin-top: -5px;
@@ -188,7 +188,7 @@ h4 {
 .travel p {
   text-align: center;
   margin: 30px;
-  background-color: rgb(128, 128, 128, 0.7);
+  background-color: rgb(255, 255, 255, 0.7);
   padding: 70px;
   border-radius: 100%;
   margin-top: -5px;
