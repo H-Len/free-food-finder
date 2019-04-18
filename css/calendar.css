@@ -1,10 +1,4 @@
-/* * {
-  border:1px dashed black;
-} */
 
-/* body {
-  background-color: #afaea8;
-} */
 
 /* nav bar css -----------> */
 
@@ -44,20 +38,7 @@
 
 /* nav bar css end ---------> */
 
-/* .box.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #a38e1a;
-  font-size: 20px;
-  padding: 10px;
-} */
-
-/* styling for calendar */
-/* body {
-  background-color: #ada16d;
-} */
-
+/* beginning circles */
 .infoBubbles {
   margin-top: 40px;
 }
@@ -83,7 +64,7 @@
   text-align: center;
   color: black;
   background-image: url(../img/nature8.jpg);
-  /* background-color: lightgray; */
+  background-color: lightgray;
   font-size: 16px;
   line-height: 30px;
   transition: all .2s ease-in-out;
@@ -106,7 +87,7 @@
   border-radius: 50%;
   color: black;
   background-image: url(../img/nature9.jpg);
-  /* background-color: lightgray; */
+  background-color: lightgray;
   font-size: 16px;
   line-height: 30px;
   transition: all .2s ease-in-out;
@@ -161,33 +142,66 @@
   transform: scale(1.2);
   font-weight: bold;
 }
+/* end circles styling */
 
-.box.flex {
+.legendTitle {
+  text-align: center;
+}
+
+.legend {
+  list-style-type: none;
+}
+
+#legendBox {
   display: flex;
-  font-size: 18px;
-  font-family: sans-serif;
-  padding: 5px;
   justify-content: center;
 }
 
 #purple {
+  background-color: #7310b2;
+  border: 4px solid #7310b2;
   color: #7310b2;
+  margin-right: 5px;
+  border-radius: 50%;
 }
 
 #green {
-  color: #70cc20;
+  background-color: #A4CF7D;
+  border: 4px solid #A4CF7D;
+  color: #A4CF7D;
+  margin-right: 5px;
+  border-radius: 50%;
+  line-height: 3rem;
 }
 
 #teal {
-  color: #5baf85;
+  background-color: #5FC4AF;
+  border: 4px solid #5FC4AF;
+  color: #5FC4AF;
+  margin-right: 5px;
+  border-radius: 50%;
 }
 
 #yellow {
+  background-color: yellow;
+  border: 4px solid yellow;
   color: yellow;
+  margin-right: 5px;
+  border-radius: 50%;
+  line-height: 3rem;
 }
 
 #orange {
+  background-color: orange;
+  border: 4px solid orange;
   color: orange;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+#calendar {
+  display: flex;
+  justify-content: center;
 }
 
 /* .card-title {
@@ -213,19 +227,14 @@
   text-decoration: none;
 } */
 
-#legendBoxTitle {
+/* #legendBoxTitle {
   background-color: grey;
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 30px;
   border: 2px solid black;
-}
+} */
 
-#legendBox {
-  background-color: grey;
-  margin-left: 20%;
-  margin-right: 20%;
-}
 
 .advocate img {
   width: 80px;
