@@ -78,8 +78,8 @@
   border-radius: 50%;
   padding: 30px;
   text-align: center;
-  color: white;
-  background-image: url(../img/nature3.jpg);
+  color: black;
+  background-image: url(../img/nature8.jpg);
   /* background-color: lightgray; */
   font-size: 14px;
   line-height: 30px;
@@ -101,14 +101,13 @@
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  color: white;
-  background-image: url(../img/nature2.jpg);
+  color: black;
+  background-image: url(../img/nature9.jpg);
   /* background-color: lightgray; */
   font-size: 14px;
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
-
 .explanation2:hover {
   transform: scale(1.2);
   font-weight: bold;
@@ -124,14 +123,13 @@
   height: 240px;
   border-radius: 50%;
   text-align: center;
-  color: white;
-  background-image: url(../img/nature7.jpg);
+  color: black;
+  background-image: url(../img/nature10.png);
   /* background-color: lightgray; */
   font-size: 14px;
   line-height: 30px;
   transition: all .2s ease-in-out;
 }
-
 .explantion3:hover {
   transform: scale(1.2);
   font-weight: bold;
@@ -147,8 +145,8 @@
   border-radius: 50%;
   padding: 30px;
   text-align: center;
-  color: white;
-  background-image: url(../img/nature6.jpg);
+  color: black;
+  background-image: url(../img/nature11.jpg);
   /* background-color: lightgray; */
   font-size: 14px;
   line-height: 30px;
