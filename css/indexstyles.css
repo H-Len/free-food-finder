@@ -98,6 +98,14 @@ body {
 
 /* Flexbox for index start -------> */
 
+/* .card {
+  background: #CDAF50;
+  color: #000000;
+  position: relative;
+  overflow: hidden;
+  padding: -40px;
+/* border: none; }*/ */
+
 .content {
   display: flex;
   height: 400px;
