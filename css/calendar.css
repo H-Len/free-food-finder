@@ -170,6 +170,26 @@
   justify-content: center;
 }
 
+#purple {
+  color: #7310b2;
+}
+
+#green {
+  color: #70cc20;
+}
+
+#teal {
+  color: #5baf85;
+}
+
+#yellow {
+  color: yellow;
+}
+
+#orange {
+  color: orange;
+}
+
 /* .card-title {
   text-align: center;
   border: 2px solid lightgray;
