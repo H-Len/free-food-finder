@@ -79,21 +79,6 @@ h1 {
   padding-top: 40px;
 }
 
-#welcome p {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-
-
-  /* welcome blurb styling end */
-
-/* #welcome {
-  padding: 3px;
-  margin-top: 10%;
-  border: 2px solid black;
-} */
-
 .jumbotron h1 {
   text-align: center;
   font-size: 80px;
@@ -241,18 +226,82 @@ a {
 /* End flexbox table ---------> */
 
 /* begin styling for seasonalDates */
+#seasonal p {
+  text-align: center;
+  font-size: 24px;
+}
+
 .seasonalDates {
   display: flex;
   justify-content: center;
 }
-
-#fig img {
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  margin: 0px 10px 0px 10px;
+/* circle flip card */
+.circle-container {
+	position: relative;
+	perspective: 1000;
+	margin: 0 auto;
 }
-#plums img {
+.circle-container:hover .circle {
+	transform: rotate3d(45, 45, 0, 180deg);
+}
+.circle-container:hover .outer-ring {
+	transform: rotate3d(45, 0, 0, 180deg);
+}
+.circle-container:hover .outer-outer-ring {
+	transform: rotate3d(0, 45, 0, 180deg);
+}
+.circle-container, .front, .back {
+	width: 250px;
+	height: 250px;
+	background-color: rgba(0,0,0,0);
+}
+.circle, .outer-ring, .outer-outer-ring {
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+.circle {
+	position: relative;
+	width: 250px;
+	height: 250px;
+}
+.front, .back {
+	border-radius: 50%;
+	backface-visibility: hidden;
+	position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.back {
+	transform: rotate3d(45,45,0,180deg);
+	background-color: #a8adac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.first-line {
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+}
+.second-line {
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+}
+/* .back-logo {
+	width: 60%;
+	display: block;
+	margin: 2em auto;
+} */
+/** end circle flip card */
+
+.circle-container img {
   border-radius: 50%;
   height: 250px;
   width: 250px;
