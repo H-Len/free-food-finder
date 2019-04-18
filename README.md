@@ -17,7 +17,7 @@ _We are not the only food locator out there, but we are proud of the dynamic way
 
 ## Specs - "Landing Page" - index.html
 
-  PICTURE GOES HERE
+<img src="img/homePage.png" alt="image of homePage">
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
@@ -26,21 +26,21 @@ _We are not the only food locator out there, but we are proud of the dynamic way
 
 ## Specs - "About Us" - about-faq.html
 
-  PICTURE GOES HERE
+<img src="img/aboutFAQpage.png">
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
 
 ## Specs - "Resources" - resources.html
 
-  PICTURE GOES HERE
+<img src="img/resourcesPage.png">
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
 
 ## Specs - "Search by location" - searchByLocation.html
 
-  PICTURE GOES HERE
+<img src="img/mapPage.png">
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
@@ -49,7 +49,7 @@ _We are not the only food locator out there, but we are proud of the dynamic way
 
 ## Specs - "Search by Date" - calendar.html
 
-  PICTURE GOES HERE
+<img src="img/calendarPage.png">
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
