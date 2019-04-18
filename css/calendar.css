@@ -58,15 +58,20 @@
   text-decoration: none;
   pointer-events: none;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 #indexNav a:hover {
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 2px;
+
 }
 
 /* nav bar css end ---------> */
+
 /* beginning circles */
 .infoBubbles {
   margin-top: 40px;
