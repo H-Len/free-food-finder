@@ -63,10 +63,10 @@
 #indexNav a:hover {
   color: #000000;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* nav bar css end ---------> */
-
 /* beginning circles */
 .infoBubbles {
   margin-top: 40px;
@@ -175,6 +175,11 @@
 
 .legendTitle {
   text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .legend {
@@ -191,7 +196,7 @@
   border: 4px solid #7310b2;
   color: #7310b2;
   margin-right: 5px;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 #green {
@@ -199,7 +204,7 @@
   border: 4px solid #A4CF7D;
   color: #A4CF7D;
   margin-right: 5px;
-  border-radius: 50%;
+  border-radius: 15%;
   line-height: 3rem;
 }
 
@@ -208,7 +213,7 @@
   border: 4px solid #5FC4AF;
   color: #5FC4AF;
   margin-right: 5px;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 #yellow {
@@ -216,7 +221,7 @@
   border: 4px solid yellow;
   color: yellow;
   margin-right: 5px;
-  border-radius: 50%;
+  border-radius: 15%;
   line-height: 3rem;
 }
 
@@ -225,7 +230,7 @@
   border: 4px solid orange;
   color: orange;
   margin-right: 5px;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
 #calendar {
