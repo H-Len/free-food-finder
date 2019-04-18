@@ -29,6 +29,7 @@ _We are not the only food locator out there, but we are proud of the dynamic way
 
 <img src="img/aboutFAQpage.png">
 
+
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
 | Display About, Mission and Contact Us information | Scroll with mouse | paralax scrolling of background image |
