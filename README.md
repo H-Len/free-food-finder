@@ -18,7 +18,7 @@ _We are not the only food locator out there, but we are proud of the dynamic way
 ## Specs - "Landing Page" - index.html
 
 <p  align="center">
-  <img src="img/homepage.png" alt="image of homepage" height="80%" width="80%">
+  <img src="img/homePage.png" alt="image of homepage" height="80%" width="80%">
 </p>
 
 | Behavior | Input | Output |
