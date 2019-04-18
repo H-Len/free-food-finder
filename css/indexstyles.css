@@ -231,7 +231,13 @@ a {
   font-size: 24px;
 }
 
-.seasonalDates {
+.seasonalDatesOne {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.seasonalDatesTwo {
   display: flex;
   justify-content: center;
 }
@@ -279,43 +285,11 @@ a {
   justify-content: center;
   align-items: center;
 }
-.back h4 {
-  display: flex;
-  justify-content: center;
-  font-size: 20px;
-}
-.first-line {
-  display: flex;
-  text-align: center;
-  font-size: 16px;
-}
-.second-line {
-  display: flex;
-  text-align: center;
-  font-size: 16px;
-}
-/* .back-logo {
-	width: 60%;
-	display: block;
-	margin: 2em auto;
-} */
 /** end circle flip card */
 
 .circle-container img {
   border-radius: 50%;
   height: 250px;
   width: 250px;
-  margin: 0px 10px 0px 10px;
-}
-#blackberries img {
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  margin: 0px 10px 0px 10px;
-}
-#apples img {
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 10px 10px 10px;
 }
