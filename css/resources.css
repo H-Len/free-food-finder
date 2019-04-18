@@ -132,6 +132,7 @@ h4 {
   width: 390px;
   height: 390px;
   background-color: #a8adac;
+  padding-top: 50px;
 
   /* border-radius: 50%; */
 }
@@ -159,6 +160,7 @@ h4 {
   font-size: 20px;
   width: 380px;
   height: 380px;
+  padding-top: 110px;
   /* border-radius: 50%; */
 }
 
@@ -186,7 +188,7 @@ h4 {
   width: 390px;
   height: 390px;
   background-color: #a8adac;
-
+  padding-top: 110px;
   /* border-radius: 50%; */
 }
 
@@ -214,6 +216,7 @@ h4 {
   font-size: 20px;
   width: 380px;
   height: 380px;
+  padding-top: 100px;
 
   /* border-radius: 50%; */
 }
@@ -259,7 +262,32 @@ h4 {
   margin-bottom: 50px;
 }
 
+#rightBubble a {
+  color: #CDAF50;
 
+}
+
+#rightBubble a:hover {
+  color: #CDAF50;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+
+#leftBubble a {
+  color: #FFFFFF;
+
+}
+
+#leftBubble a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+}
 
 
 /* Old circles code --------------> */
